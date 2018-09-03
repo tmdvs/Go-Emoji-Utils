@@ -5,14 +5,22 @@ import (
 	"fmt"
 	"io/ioutil"
 	"os"
+	"path"
 	"regexp"
+	"runtime"
 	"strings"
 )
 
 var emojis map[string]string
 
 func init() {
-	jsonFile, err := os.Open("data/emoji.json")
+
+	_, filename, _, ok := runtime.Caller(0)
+	if !ok {
+		panic("No caller information")
+	}
+
+	jsonFile, err := os.Open(path.Dir(filename) + "/data/emoji.json")
 	defer jsonFile.Close()
 	if err != nil {
 		fmt.Println(err)
