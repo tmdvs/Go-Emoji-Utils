@@ -38,22 +38,38 @@ func init() {
 func DetectEmoji(s string) map[string]int32 {
 	usedEmojis := map[string]int32{}
 
+	r := []rune(s)
+
 	// Loop over each "word" in the string
-	for _, w := range strings.Split(s, " ") {
-		r := []rune(w)
+	for i, c := range r {
+		// Grab the initial hex value of this run
+		hexKey := fmt.Sprintf("%X", c)
 
-		// SPrint it as an array of hex parts
-		s := fmt.Sprintf("%U", r)
+		// First lets check it it's been followed by a modifier
+		nextIndex := i + 1
 
-		// Remove the UTF prefix and the slice boundaries
-		s = strings.Replace(s, "U+", "", -1)
-		s = strings.Replace(s, "[", "", -1)
-		s = strings.Replace(s, "]", "", -1)
-		s = strings.Replace(s, " ", "-", -1)
+	modLoop:
+		for {
+			if nextIndex < len(r) {
 
-		// If it's an emoji count it up
-		if _, ok := emojis[s]; ok {
-			usedEmojis[emojis[s]]++
+				nextHexKey := hexKey + "-" + fmt.Sprintf("%X", r[nextIndex])
+
+				for key := range emojis {
+					if strings.Index(key, nextHexKey) >= 0 {
+						nextIndex++
+						hexKey = nextHexKey
+						continue modLoop
+					} else {
+						break modLoop
+					}
+				}
+			} else {
+				break
+			}
+		}
+
+		if _, ok := emojis[hexKey]; ok {
+			usedEmojis[emojis[hexKey]]++
 		}
 	}
 
