@@ -12,7 +12,7 @@ import (
 var emojis map[string]string
 
 func init() {
-	jsonFile, err := os.Open("utils/emoji.json")
+	jsonFile, err := os.Open("data/emoji.json")
 	defer jsonFile.Close()
 	if err != nil {
 		fmt.Println(err)
