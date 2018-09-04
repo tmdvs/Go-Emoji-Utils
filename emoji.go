@@ -56,6 +56,14 @@ func DetectEmoji(s string) map[string]int32 {
 
 		// Grab the initial hex value of this run
 		hexKey := fmt.Sprintf("%X", rune)
+
+		// Ignore any basic runes, we'll get funny partials
+		// that we dont care about
+		if len(hexKey) < 4 {
+			continue
+		}
+
+		previousKey := hexKey
 		potentialMatches := emojis
 		nextIndex := index + 1
 
@@ -70,9 +78,8 @@ func DetectEmoji(s string) map[string]int32 {
 			} else if len(potentialMatches) == 0 {
 				// We didnt find anything, so we'll check if its a single rune emoji
 				// Reset to original hexKey
-				hexKey = fmt.Sprintf("%X", rune)
-				if _, match := emojis[hexKey]; match {
-					potentialMatches[hexKey] = emojis[hexKey]
+				if _, match := emojis[previousKey]; match {
+					potentialMatches[previousKey] = emojis[previousKey]
 				}
 
 				// Definately no modifiers
@@ -91,14 +98,18 @@ func DetectEmoji(s string) map[string]int32 {
 
 				// We have more than one potential match so we'll add the
 				// next UTF rune to the key and search again!
+				previousKey = hexKey
 				hexKey = hexKey + "-" + fmt.Sprintf("%X", runes[nextIndex])
 				detectedModifiers[nextIndex] = true
 				nextIndex++
 			}
 		}
 
-		for _, description := range potentialMatches {
-			detectedEmojis[description]++
+		// Loop over potential matches and ensure we're not counting partials
+		for key, description := range potentialMatches {
+			if _, match := emojis[key]; match {
+				detectedEmojis[description]++
+			}
 		}
 	}
 
