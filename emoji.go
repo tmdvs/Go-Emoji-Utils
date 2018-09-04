@@ -82,6 +82,10 @@ func DetectEmoji(s string) map[string]int32 {
 			} else {
 				// Have we hit the last rune? If so we'll stop
 				if nextIndex == len(runes) {
+					// We need to return the match for this current key
+					potentialMatches = map[string]string{
+						hexKey: emojis[hexKey],
+					}
 					break
 				}
 
