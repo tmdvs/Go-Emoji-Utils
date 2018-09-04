@@ -36,43 +36,77 @@ func init() {
 
 // DetectEmoji - Find all instances of emoji
 func DetectEmoji(s string) map[string]int32 {
-	usedEmojis := map[string]int32{}
 
-	r := []rune(s)
+	// Convert our string to UTF runes
+	runes := []rune(s)
+
+	detectedEmojis := map[string]int32{}
+	detectedModifiers := map[int]bool{}
 
 	// Loop over each "word" in the string
-	for i, c := range r {
+	for index, rune := range runes {
+
+		// If this index has been flaged as a modifier we do
+		// not want to process it again
+		if detectedModifiers[index] {
+			continue
+		}
+
 		// Grab the initial hex value of this run
-		hexKey := fmt.Sprintf("%X", c)
+		hexKey := fmt.Sprintf("%X", rune)
+		potentialMatches := emojis
+		nextIndex := index + 1
 
-		// First lets check it it's been followed by a modifier
-		nextIndex := i + 1
-
-	modLoop:
 		for {
-			if nextIndex < len(r) {
+			// Search the Emoji definitions map to see if we have
+			// any matching results
+			potentialMatches = searchEmojis(hexKey, potentialMatches)
 
-				nextHexKey := hexKey + "-" + fmt.Sprintf("%X", r[nextIndex])
-
-				for key := range emojis {
-					if strings.Index(key, nextHexKey) >= 0 {
-						nextIndex++
-						hexKey = nextHexKey
-						continue modLoop
-					} else {
-						break modLoop
-					}
-				}
-			} else {
+			// We found a definitive match
+			if len(potentialMatches) == 1 {
 				break
+			} else if len(potentialMatches) == 0 {
+				// We didnt find anything, so we'll check if its a single rune emoji
+				// Reset to original hexKey
+				hexKey = fmt.Sprintf("%X", rune)
+				if _, match := emojis[hexKey]; match {
+					potentialMatches[hexKey] = emojis[hexKey]
+				}
+
+				// Definately no modifiers
+				detectedModifiers = map[int]bool{}
+
+				break
+			} else {
+				// We have more than one potential match so we'll add the
+				// next UTF rune to the key and search again!
+				if nextIndex == len(runes) {
+					break
+				}
+				hexKey = hexKey + "-" + fmt.Sprintf("%X", runes[nextIndex])
+				detectedModifiers[nextIndex] = true
+				nextIndex++
 			}
 		}
 
-		if _, ok := emojis[hexKey]; ok {
-			usedEmojis[emojis[hexKey]]++
+		for _, description := range potentialMatches {
+			detectedEmojis[description]++
 		}
 	}
 
 	// Return a map of Emojis and their counts
-	return usedEmojis
+	return detectedEmojis
+}
+
+// Search our emoji definitions map for a key with a partial match
+func searchEmojis(term string, list map[string]string) (results map[string]string) {
+
+	results = map[string]string{}
+	for key, value := range list {
+		if strings.Index(key, term) == 0 {
+			results[key] = value
+		}
+	}
+
+	return results
 }
