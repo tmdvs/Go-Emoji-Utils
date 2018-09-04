@@ -15,11 +15,13 @@ var emojis map[string]string
 
 // Unmarshal the emoji JSON into the Emojis map
 func init() {
+	// Work out where we are in relation to the caller
 	_, filename, _, ok := runtime.Caller(0)
 	if !ok {
 		panic("No caller information")
 	}
 
+	// Open the Emoji definition JSON and Unmarshal into map
 	jsonFile, err := os.Open(path.Dir(filename) + "/data/emoji.json")
 	defer jsonFile.Close()
 	if err != nil {
@@ -78,11 +80,13 @@ func DetectEmoji(s string) map[string]int32 {
 
 				break
 			} else {
-				// We have more than one potential match so we'll add the
-				// next UTF rune to the key and search again!
+				// Have we hit the last rune? If so we'll stop
 				if nextIndex == len(runes) {
 					break
 				}
+
+				// We have more than one potential match so we'll add the
+				// next UTF rune to the key and search again!
 				hexKey = hexKey + "-" + fmt.Sprintf("%X", runes[nextIndex])
 				detectedModifiers[nextIndex] = true
 				nextIndex++
@@ -102,6 +106,8 @@ func DetectEmoji(s string) map[string]int32 {
 func searchEmojis(term string, list map[string]string) (results map[string]string) {
 
 	results = map[string]string{}
+
+	// Look for anything that has
 	for key, value := range list {
 		if strings.Index(key, term) == 0 {
 			results[key] = value
