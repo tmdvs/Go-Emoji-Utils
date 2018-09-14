@@ -7,18 +7,19 @@ import (
 	"os"
 	"path"
 	"runtime"
+	"strconv"
 	"strings"
 )
 
 // Emoji - Struct representing Emoji
 type Emoji struct {
-	Key        string
-	Value      string
-	Descriptor string
+	Key        string `json:"key"`
+	Value      string `json:"value"`
+	Descriptor string `json:"descriptor"`
 }
 
 // Emojis - Map of Emoji Runes as Hex keys to their description
-var Emojis map[string]string
+var Emojis map[string]Emoji
 
 // Unmarshal the emoji JSON into the Emojis map
 func init() {
@@ -41,12 +42,14 @@ func init() {
 	}
 
 	json.Unmarshal(byteValue, &Emojis)
+
+	fmt.Print(len(Emojis))
 }
 
 // FindEmoji - Search our emoji definitions map for a key with a partial match
-func FindEmoji(term string, list map[string]string) (results map[string]string) {
+func FindEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
 
-	results = map[string]string{}
+	results = map[string]Emoji{}
 
 	// Look for anything that has
 	for key, value := range list {
@@ -56,4 +59,27 @@ func FindEmoji(term string, list map[string]string) (results map[string]string) 
 	}
 
 	return results
+}
+
+func rebuildValuesFromHex() {
+	for i, emoji := range Emojis {
+
+		hexParts := strings.Split(emoji.Value, "-")
+
+		s := []rune{}
+		for _, p := range hexParts {
+			n, _ := strconv.ParseUint(p, 16, 32)
+			s = append(s, rune(n))
+		}
+
+		Emojis[i] = Emoji{
+			Key:        emoji.Key,
+			Value:      string(s),
+			Descriptor: emoji.Descriptor,
+		}
+	}
+
+	s, _ := json.MarshalIndent(Emojis, "", "\t")
+	ioutil.WriteFile("data/emoji.json", []byte(s), 0644)
+
 }
