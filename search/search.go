@@ -1,48 +1,38 @@
 package emoji
 
 import (
-	"encoding/json"
 	"fmt"
-	"io/ioutil"
-	"os"
-	"path"
-	"runtime"
-	"strings"
+
+	emoji "github.com/tmdvs/Go-Emoji-Utils/definitions"
 )
 
-// Map of Emoji Runes as Hex keys to their description
-var emojis map[string]string
+// SearchResult - Occurence of an emoji in a string
+type SearchResult struct {
+	Match      interface{}
+	Occurences int
+}
 
-// Unmarshal the emoji JSON into the Emojis map
-func init() {
-	// Work out where we are in relation to the caller
-	_, filename, _, ok := runtime.Caller(0)
-	if !ok {
-		panic("No caller information")
+// SearchResults - The result of a search
+type SearchResults []SearchResult
+
+// IndexOf - Check to see if search results contains a specific element
+func (results SearchResults) IndexOf(result interface{}) int {
+	for i, r := range results {
+		if r.Match == result {
+			return i
+		}
 	}
 
-	// Open the Emoji definition JSON and Unmarshal into map
-	jsonFile, err := os.Open(path.Dir(filename) + "/data/emoji.json")
-	defer jsonFile.Close()
-	if err != nil {
-		fmt.Println(err)
-	}
-
-	byteValue, e := ioutil.ReadAll(jsonFile)
-	if e != nil {
-		panic(e)
-	}
-
-	json.Unmarshal(byteValue, &emojis)
+	return -1
 }
 
 // DetectEmoji - Find all instances of emoji
-func DetectEmoji(s string) map[string]int32 {
+func DetectEmoji(s string) (detectedEmojis SearchResults) {
 
 	// Convert our string to UTF runes
 	runes := []rune(s)
 
-	detectedEmojis := map[string]int32{}
+	// Any potential modifiers such as a skin tone/gender
 	detectedModifiers := map[int]bool{}
 
 	// Loop over each "word" in the string
@@ -64,13 +54,13 @@ func DetectEmoji(s string) map[string]int32 {
 		}
 
 		previousKey := hexKey
-		potentialMatches := emojis
+		potentialMatches := emoji.Emojis
 		nextIndex := index + 1
 
 		for {
 			// Search the Emoji definitions map to see if we have
 			// any matching results
-			potentialMatches = searchEmojis(hexKey, potentialMatches)
+			potentialMatches = emoji.FindEmoji(hexKey, potentialMatches)
 
 			// We found a definitive match
 			if len(potentialMatches) == 1 {
@@ -78,8 +68,8 @@ func DetectEmoji(s string) map[string]int32 {
 			} else if len(potentialMatches) == 0 {
 				// We didnt find anything, so we'll check if its a single rune emoji
 				// Reset to original hexKey
-				if _, match := emojis[previousKey]; match {
-					potentialMatches[previousKey] = emojis[previousKey]
+				if _, match := emoji.Emojis[previousKey]; match {
+					potentialMatches[previousKey] = emoji.Emojis[previousKey]
 				}
 
 				// Definately no modifiers
@@ -91,7 +81,7 @@ func DetectEmoji(s string) map[string]int32 {
 				if nextIndex == len(runes) {
 					// We need to return the match for this current key
 					potentialMatches = map[string]string{
-						hexKey: emojis[hexKey],
+						hexKey: emoji.Emojis[hexKey],
 					}
 					break
 				}
@@ -107,27 +97,27 @@ func DetectEmoji(s string) map[string]int32 {
 
 		// Loop over potential matches and ensure we're not counting partials
 		for key, description := range potentialMatches {
-			if _, match := emojis[key]; match {
-				detectedEmojis[description]++
+			if _, match := emoji.Emojis[key]; match {
+
+				// Lets create an Emoji instance for this match
+				emoji := emoji.Emoji{
+					Key:        key,
+					Descriptor: description,
+				}
+
+				// Have we already accounted for this match?
+				if i := detectedEmojis.IndexOf(emoji); i != -1 {
+					detectedEmojis[i].Occurences++
+				} else {
+					detectedEmojis = append(detectedEmojis, SearchResult{
+						Match:      emoji,
+						Occurences: 1,
+					})
+				}
 			}
 		}
 	}
 
 	// Return a map of Emojis and their counts
 	return detectedEmojis
-}
-
-// Search our emoji definitions map for a key with a partial match
-func searchEmojis(term string, list map[string]string) (results map[string]string) {
-
-	results = map[string]string{}
-
-	// Look for anything that has
-	for key, value := range list {
-		if strings.Index(key, term) == 0 {
-			results[key] = value
-		}
-	}
-
-	return results
 }
