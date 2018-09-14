@@ -3,7 +3,7 @@ package emoji
 import (
 	"fmt"
 
-	emoji "github.com/tmdvs/Go-Emoji-Utils/definitions"
+	emoji "github.com/tmdvs/Go-Emoji-Utils"
 )
 
 // SearchResult - Occurence of an emoji in a string

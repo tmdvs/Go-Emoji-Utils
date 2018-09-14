@@ -29,7 +29,7 @@ func init() {
 	}
 
 	// Open the Emoji definition JSON and Unmarshal into map
-	jsonFile, err := os.Open(path.Dir(filename) + "/../data/emoji.json")
+	jsonFile, err := os.Open(path.Dir(filename) + "/data/emoji.json")
 	defer jsonFile.Close()
 	if err != nil {
 		fmt.Println(err)
