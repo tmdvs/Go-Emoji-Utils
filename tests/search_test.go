@@ -1,12 +1,18 @@
 package tests
 
 import (
+	"fmt"
 	"testing"
 
-	emoji "github.com/tmdvs/Go-Emoji-Utils/search"
+	"github.com/tmdvs/Go-Emoji-Utils"
 )
 
 func BenchmarkSearch(b *testing.B) {
+
+	fmt.Printf("Loaded %d emoji definitions\n", len(emoji.Emojis))
+
+	b.ResetTimer()
+
 	str := "👍🏻"
 	for i := 0; i < b.N; i++ {
 		emoji.DetectEmoji(str)
