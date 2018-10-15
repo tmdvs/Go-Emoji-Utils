@@ -2,6 +2,7 @@ package emoji
 
 import (
 	"fmt"
+	"strings"
 )
 
 // SearchResult - Occurence of an emoji in a string
@@ -22,6 +23,21 @@ func (results SearchResults) IndexOf(result interface{}) int {
 	}
 
 	return -1
+}
+
+// Search an array of emoji definitions for a key with a partial match
+func findEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
+
+	results = map[string]Emoji{}
+
+	// Look for anything that has
+	for key, value := range list {
+		if strings.Index(key, term) == 0 {
+			results[key] = value
+		}
+	}
+
+	return results
 }
 
 // DetectEmoji - Find all instances of emoji
@@ -58,7 +74,7 @@ func DetectEmoji(s string) (detectedEmojis SearchResults) {
 		for {
 			// Search the Emoji definitions map to see if we have
 			// any matching results
-			potentialMatches = FindEmoji(hexKey, potentialMatches)
+			potentialMatches = findEmoji(hexKey, potentialMatches)
 
 			// We found a definitive match
 			if len(potentialMatches) == 1 {

@@ -2,12 +2,12 @@ package emoji
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io/ioutil"
 	"os"
 	"path"
 	"runtime"
-	"strconv"
 	"strings"
 )
 
@@ -46,27 +46,40 @@ func init() {
 	fmt.Print(len(Emojis))
 }
 
-// Used to rebuild the raw emoji "values" in the emoji.json from their
-// Key field which is the Hex representation of their Unicode Code Point value
-func rebuildValuesFromHex() {
-	for i, emoji := range Emojis {
+// LookupEmoji - Lookup a single emoji definition
+func LookupEmoji(emoji string) (Emoji, error) {
+	// Convert our input string to UTF runes
+	runes := []rune(emoji)
 
-		hexParts := strings.Split(emoji.Value, "-")
+	// Build a slice of hex representations of each rune
+	hexParts := []string{}
+	for _, rune := range runes {
+		hexParts = append(hexParts, fmt.Sprintf("%X", rune))
+	}
 
-		s := []rune{}
-		for _, p := range hexParts {
-			n, _ := strconv.ParseUint(p, 16, 32)
-			s = append(s, rune(n))
-		}
+	// Join the hex strings with a hypen - this is the key used in the emojis map
+	hexKey := strings.Join(hexParts, "-")
 
-		Emojis[i] = Emoji{
-			Key:        emoji.Key,
-			Value:      string(s),
-			Descriptor: emoji.Descriptor,
+	// If we have a definition for this string we'll return it,
+	// else we'll return an error
+	if emoji, ok := Emojis[hexKey]; ok {
+		return emoji, nil
+	}
+
+	return Emoji{}, errors.New("No record for \"" + emoji + "\" could be found")
+}
+
+// LookupEmojis - Lookup definitions for each emoji in the input
+func LookupEmojis(emoji []string) []interface{} {
+	matches := []interface{}{}
+
+	for _, emoji := range emoji {
+		if match, err := LookupEmoji(emoji); err == nil {
+			matches = append(matches, match)
+		} else {
+			matches = append(matches, err)
 		}
 	}
 
-	s, _ := json.MarshalIndent(Emojis, "", "\t")
-	ioutil.WriteFile("data/emoji.json", []byte(s), 0644)
-
+	return matches
 }
