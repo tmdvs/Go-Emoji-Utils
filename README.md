@@ -17,7 +17,7 @@ You can search a string for all occurrences of emoji. You will be returned an ar
 input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
 result := emoji.DetectEmoji(input)
 
-// result: SearchResults[ SearchResult{ Match: Emoji{…}, Occurences: 1 }, …]
+// result: SearchResults{ SearchResult{ Match: Emoji{…}, Occurences: 1 }, …}
 ```
 
 ### Look up the definition of a single emoji
@@ -26,7 +26,7 @@ You can lookup the definition of a single emoji character using the `LookupEmoji
 ```go
 result, err := emoji.LookupEmoji("🐷")
 
-// result: Emoji{Key:"1F437", Value:"🐷", Descriptor: "pig"}
+// result: Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }
 ```
 
 ### Look up the definitions for a list of emojis
@@ -37,5 +37,5 @@ Results are returned in the same order that the input strings were provided in. 
 ```go
 result, err := emoji.LookupEmojis([]string{"🐷", "🙈"})
 
-// result: [ Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, …]
+// result: []interface{}{ Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, …}
 ```
