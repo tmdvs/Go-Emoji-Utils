@@ -46,21 +46,8 @@ func init() {
 	fmt.Print(len(Emojis))
 }
 
-// FindEmoji - Search our emoji definitions map for a key with a partial match
-func FindEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
-
-	results = map[string]Emoji{}
-
-	// Look for anything that has
-	for key, value := range list {
-		if strings.Index(key, term) == 0 {
-			results[key] = value
-		}
-	}
-
-	return results
-}
-
+// Used to rebuild the raw emoji "values" in the emoji.json from their
+// Key field which is the Hex representation of their Unicode Code Point value
 func rebuildValuesFromHex() {
 	for i, emoji := range Emojis {
 
