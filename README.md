@@ -35,7 +35,7 @@ You can lookup the definition of a for each emoji character in an array of emoji
 Results are returned in the same order that the input strings were provided in. If a matching emoji can't be found an error will be appear in for that position in the result slice.
 
 ```go
-result, err := emoji.LookupEmojis([]string{"🐷", "🙈"})
+result := emoji.LookupEmojis([]string{"🐷", "🙈"})
 
 // result: []interface{}{ Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, …}
 ```
