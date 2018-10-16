@@ -4,28 +4,39 @@
 A collection of useful functions for working with emoji. For example: look up the definition of a specific emoji, or search for all occurrences of emojis in a string.
 
 ## Features
- - [x] Search a string for all occurrences of emoji
+ - [x] Find all occurrences of emoji in a string
+ - [x] Search a string for the presence specific emoji
  - [x] Look up the definition of a single emoji
  - [x] Look up the definitions for a list of emojis
- - [ ] Find the location of a specific emoji in a string
+ - [ ] Find the location of and occurrences of a specific emoji in a string
 
 ## Examples
-### Search a string for all occurrences of emoji
+### Find all occurrences of emoji in a string
 You can search a string for all occurrences of emoji. You will be returned an array of results specifying which emojis were found, and how many times each occurred.
 
 ```go
 input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
-result := emoji.DetectEmoji(input)
+result := emoji.FindAll(input)
 
-// result: SearchResults{ SearchResult{ Match: Emoji{…}, Occurences: 1 }, …}
+// result: SearchResults{ SearchResult{ Match: Emoji{…}, Occurrences: 1 }, …}
 ```
 
-#### Checking search results for the occurence of a specific emoji
+### Search a string for the presence specific emoji
+You can search a string for the presence of a specific emoji. You will be returned a `SearchResult` struct with the definition of the matching emoji and how many times it occurred in the string.
+
+```go
+input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
+result := emoji.Find("🐷", input)
+
+// result: SearchResult{ Match: Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, Occurrences: 2 }, …}
+```
+
+### Checking search results for the occurrence of a specific emoji
 The `SearchResults` struct has an `IndexOf` method for conveniently checking whether or not a specific emoji appears within the results set. If the emoji is not found a position of `-1` is returned.
 
 ```go
 input := "This is a string 😄 🐷"
-results := emoji.DetectEmoji(input)
+results := emoji.FindAll(input)
 
 pigEmoji := emoji.Emojis["1F437"]
 pigIndex := results.IndexOf(pigEmoji)

@@ -1,13 +1,15 @@
 package emoji
 
 import (
+	"errors"
 	"strings"
 )
 
 // SearchResult - Occurence of an emoji in a string
 type SearchResult struct {
-	Match      interface{}
-	Occurences int
+	Match       interface{}
+	Occurrences int
+	// TODO: Add locations of emojis
 }
 
 // SearchResults - The result of a search
@@ -24,24 +26,36 @@ func (results SearchResults) IndexOf(result interface{}) int {
 	return -1
 }
 
-// Search an array of emoji definitions for a key with a partial match
-func findEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
-	results = map[string]Emoji{}
+// Find a specific emoji character within a srting
+func Find(emojiString string, input string) (result SearchResult, err error) {
 
-	// Look for anything that has
-	for key, value := range list {
-		if strings.Index(key, term) == 0 {
-			results[key] = value
+	// Firstly we'll grab the emoji record for the emoji we're looking for
+	var emoji Emoji
+	if emoji, err = LookupEmoji(emojiString); err != nil {
+		return // The emoji doesn't exist, return an error
+	}
+
+	// Find all of the emojis from in the input string
+	allEmoji := FindAll(input)
+
+	// Loop through emoji present in input and if any match the
+	// emoji we're looking for we'll return the result
+	for _, r := range allEmoji {
+		if r.Match.(Emoji).Key == emoji.Key {
+			result = r
+			return
 		}
 	}
-	return
+
+	// The emoji wasn't found, return an error
+	return result, errors.New("Emoji was not found")
 }
 
-// DetectEmoji - Find all instances of emoji
-func DetectEmoji(s string) (detectedEmojis SearchResults) {
+// FindAll - Find all instances of emoji
+func FindAll(input string) (detectedEmojis SearchResults) {
 
 	// Convert our string to UTF runes
-	runes := []rune(s)
+	runes := []rune(input)
 
 	// Any potential modifiers such as a skin tone/gender
 	detectedModifiers := map[int]bool{}
@@ -112,11 +126,11 @@ func DetectEmoji(s string) (detectedEmojis SearchResults) {
 
 				// Have we already accounted for this match?
 				if i := detectedEmojis.IndexOf(e); i != -1 {
-					detectedEmojis[i].Occurences++
+					detectedEmojis[i].Occurrences++
 				} else {
 					detectedEmojis = append(detectedEmojis, SearchResult{
-						Match:      e,
-						Occurences: 1,
+						Match:       e,
+						Occurrences: 1,
 					})
 				}
 			}
@@ -125,4 +139,17 @@ func DetectEmoji(s string) (detectedEmojis SearchResults) {
 
 	// Return a map of Emojis and their counts
 	return detectedEmojis
+}
+
+// Search an array of emoji definitions for a key with a partial match
+func findEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
+	results = map[string]Emoji{}
+
+	// Look for anything that has
+	for key, value := range list {
+		if strings.Index(key, term) == 0 {
+			results[key] = value
+		}
+	}
+	return
 }
