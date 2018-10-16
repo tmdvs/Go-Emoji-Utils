@@ -1,7 +1,6 @@
 package emoji
 
 import (
-	"fmt"
 	"strings"
 )
 
@@ -48,7 +47,7 @@ func DetectEmoji(s string) (detectedEmojis SearchResults) {
 	detectedModifiers := map[int]bool{}
 
 	// Loop over each "word" in the string
-	for index, rune := range runes {
+	for index, r := range runes {
 
 		// If this index has been flaged as a modifier we do
 		// not want to process it again
@@ -57,7 +56,7 @@ func DetectEmoji(s string) (detectedEmojis SearchResults) {
 		}
 
 		// Grab the initial hex value of this run
-		hexKey := fmt.Sprintf("%X", rune)
+		hexKey := runesToHexKey([]rune{r})
 
 		// Ignore any basic runes, we'll get funny partials
 		// that we dont care about
@@ -101,7 +100,7 @@ func DetectEmoji(s string) (detectedEmojis SearchResults) {
 				// We have more than one potential match so we'll add the
 				// next UTF rune to the key and search again!
 				previousKey = hexKey
-				hexKey = hexKey + "-" + fmt.Sprintf("%X", runes[nextIndex])
+				hexKey = hexKey + "-" + runesToHexKey([]rune{runes[nextIndex]})
 				detectedModifiers[nextIndex] = true
 				nextIndex++
 			}
