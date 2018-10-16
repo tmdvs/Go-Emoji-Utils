@@ -28,7 +28,7 @@ You can search a string for the presence of a specific emoji. You will be return
 input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
 result := emoji.Find("🐷", input)
 
-// result: SearchResult{ Match: Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, Occurrences: 2 }, …}
+// result: SearchResult{ Match: Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, Occurrences: 2 } }
 ```
 
 ### Checking search results for the occurrence of a specific emoji
