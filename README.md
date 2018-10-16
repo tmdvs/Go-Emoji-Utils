@@ -20,6 +20,18 @@ result := emoji.DetectEmoji(input)
 // result: SearchResults{ SearchResult{ Match: Emoji{…}, Occurences: 1 }, …}
 ```
 
+#### Checking search results for the occurence of a specific emoji
+The `SearchResults` struct has an `IndexOf` method for conveniently checking whether or not a specific emoji appears within the results set. If the emoji is not found a position of `-1` is returned.
+
+```go
+input := "This is a string 😄 🐷"
+results := emoji.DetectEmoji(input)
+
+pigEmoji := emoji.Emojis["1F437"]
+pigIndex := results.IndexOf(pigEmoji)
+// pigIndex: 19
+```
+
 ### Look up the definition of a single emoji
 You can lookup the definition of a single emoji character using the `LookupEmoji` function. If a matching emoji can't be found an error will be returned.
 
