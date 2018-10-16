@@ -2,7 +2,6 @@ package emoji
 
 import (
 	"encoding/json"
-	"errors"
 	"fmt"
 	"io/ioutil"
 	"os"
@@ -42,14 +41,12 @@ func init() {
 	}
 
 	json.Unmarshal(byteValue, &Emojis)
-
-	fmt.Print(len(Emojis))
 }
 
 // LookupEmoji - Lookup a single emoji definition
-func LookupEmoji(emoji string) (Emoji, error) {
+func LookupEmoji(emojiString string) (emoji Emoji, err error) {
 	// Convert our input string to UTF runes
-	runes := []rune(emoji)
+	runes := []rune(emojiString)
 
 	// Build a slice of hex representations of each rune
 	hexParts := []string{}
@@ -62,17 +59,17 @@ func LookupEmoji(emoji string) (Emoji, error) {
 
 	// If we have a definition for this string we'll return it,
 	// else we'll return an error
-	if emoji, ok := Emojis[hexKey]; ok {
-		return emoji, nil
+	if e, ok := Emojis[hexKey]; ok {
+		emoji = e
+	} else {
+		err = fmt.Errorf("No record for \"%s\" could be found", emojiString)
 	}
 
-	return Emoji{}, errors.New("No record for \"" + emoji + "\" could be found")
+	return emoji, err
 }
 
 // LookupEmojis - Lookup definitions for each emoji in the input
-func LookupEmojis(emoji []string) []interface{} {
-	matches := []interface{}{}
-
+func LookupEmojis(emoji []string) (matches []interface{}) {
 	for _, emoji := range emoji {
 		if match, err := LookupEmoji(emoji); err == nil {
 			matches = append(matches, match)
@@ -81,5 +78,5 @@ func LookupEmojis(emoji []string) []interface{} {
 		}
 	}
 
-	return matches
+	return
 }

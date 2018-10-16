@@ -27,7 +27,6 @@ func (results SearchResults) IndexOf(result interface{}) int {
 
 // Search an array of emoji definitions for a key with a partial match
 func findEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
-
 	results = map[string]Emoji{}
 
 	// Look for anything that has
@@ -36,8 +35,7 @@ func findEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
 			results[key] = value
 		}
 	}
-
-	return results
+	return
 }
 
 // DetectEmoji - Find all instances of emoji
