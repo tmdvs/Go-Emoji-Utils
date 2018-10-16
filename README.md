@@ -29,7 +29,7 @@ results := emoji.DetectEmoji(input)
 
 pigEmoji := emoji.Emojis["1F437"]
 pigIndex := results.IndexOf(pigEmoji)
-// pigIndex: 19
+// pigIndex: 2
 ```
 
 ### Look up the definition of a single emoji
