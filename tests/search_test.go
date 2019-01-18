@@ -16,7 +16,7 @@ func BenchmarkSearch(b *testing.B) {
 
 func BenchmarkComplexSearch(b *testing.B) {
 	b.ResetTimer()
-	str := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
+	str := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️ 🥰"
 	for i := 0; i < b.N; i++ {
 		emoji.FindAll(str)
 	}
