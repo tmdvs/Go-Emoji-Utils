@@ -1,3 +1,4 @@
+// Package utils - Functions for converting between Hex, String, and Rune representations of emoji
 package utils
 
 import (

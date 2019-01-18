@@ -1,5 +1,8 @@
 package main
 
+// Import emoji data from Emojipedia.org
+// Useful for rebuilding the emoji data found in the `data/emoji.json` file
+
 import (
 	"encoding/json"
 	"fmt"
@@ -71,23 +74,30 @@ func main() {
 			return
 		}
 
+		// Create a new goquery reader
 		doc, docErr := goquery.NewDocumentFromReader(res.Body)
 		if docErr != nil {
 			panic(docErr)
 		}
 
+		// Grab the emoji from the "Copy emoji" input field on the HTML page
 		emojiString, _ := doc.Find(".copy-paste input[type=text]").Attr("value")
+
+		// Convert the raw Emoji value to our hex key
 		hexString := utils.StringToHexKey(emojiString)
 
+		// Add this emoji to our map
 		emojis[hexString] = emoji.Emoji{
 			Key:        hexString,
 			Value:      emojiString,
 			Descriptor: lookup.Name,
 		}
 
+		// Print our progress to the console
 		fmt.Println(emojis[hexString])
 	}
 
+	// Marshal the emojis map as JSON and write to the data directory
 	s, _ := json.MarshalIndent(emojis, "", "\t")
 	ioutil.WriteFile("data/emoji.json", []byte(s), 0644)
 }
