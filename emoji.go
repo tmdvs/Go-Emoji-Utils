@@ -7,6 +7,8 @@ import (
 	"os"
 	"path"
 	"runtime"
+
+	"github.com/tmdvs/Go-Emoji-Utils/utils"
 )
 
 // Emoji - Struct representing Emoji
@@ -45,7 +47,7 @@ func init() {
 // LookupEmoji - Lookup a single emoji definition
 func LookupEmoji(emojiString string) (emoji Emoji, err error) {
 
-	hexKey := stringToHexKey(emojiString)
+	hexKey := utils.StringToHexKey(emojiString)
 
 	// If we have a definition for this string we'll return it,
 	// else we'll return an error

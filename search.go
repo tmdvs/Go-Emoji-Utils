@@ -3,6 +3,8 @@ package emoji
 import (
 	"errors"
 	"strings"
+
+	"github.com/tmdvs/Go-Emoji-Utils/utils"
 )
 
 // SearchResult - Occurence of an emoji in a string
@@ -70,7 +72,7 @@ func FindAll(input string) (detectedEmojis SearchResults) {
 		}
 
 		// Grab the initial hex value of this run
-		hexKey := runesToHexKey([]rune{r})
+		hexKey := utils.RunesToHexKey([]rune{r})
 
 		// Ignore any basic runes, we'll get funny partials
 		// that we dont care about
@@ -114,7 +116,7 @@ func FindAll(input string) (detectedEmojis SearchResults) {
 				// We have more than one potential match so we'll add the
 				// next UTF rune to the key and search again!
 				previousKey = hexKey
-				hexKey = hexKey + "-" + runesToHexKey([]rune{runes[nextIndex]})
+				hexKey = hexKey + "-" + utils.RunesToHexKey([]rune{runes[nextIndex]})
 				detectedModifiers[nextIndex] = true
 				nextIndex++
 			}
