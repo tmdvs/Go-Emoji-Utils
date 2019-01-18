@@ -8,6 +8,7 @@ A collection of useful functions for working with emoji. For example: look up th
  - [x] Search a string for the presence specific emoji
  - [x] Look up the definition of a single emoji
  - [x] Look up the definitions for a list of emojis
+ - [X] Import tool to update Emoji data with [Emojipedia](http://emojipedia.org/) specs
  - [ ] Find the location of and occurrences of a specific emoji in a string
 
 ## Examples
@@ -62,3 +63,6 @@ result := emoji.LookupEmojis([]string{"🐷", "🙈"})
 
 // result: []interface{}{ Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, …}
 ```
+
+### Updating the Emoji definitions data file
+Definitions of each emoji can be found in the `data/emoji.json` file. This JSON file is unmarshalled into a map at runtime with the emoji's hex representation as it's key. You can update the definitions file using definitions from [Emojipedia](http://emojipedia.org/) with the `import` program bundled with this package. You can find it at `import/main.go`.
