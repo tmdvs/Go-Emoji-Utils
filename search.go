@@ -11,7 +11,7 @@ import (
 type SearchResult struct {
 	Match       interface{}
 	Occurrences int
-	// TODO: Add locations of emojis
+	Locations   [][]int
 }
 
 // SearchResults - The result of a search
@@ -129,10 +129,14 @@ func FindAll(input string) (detectedEmojis SearchResults) {
 				// Have we already accounted for this match?
 				if i := detectedEmojis.IndexOf(e); i != -1 {
 					detectedEmojis[i].Occurrences++
+					detectedEmojis[i].Locations = append(detectedEmojis[i].Locations, []int{index, (nextIndex - 1)})
 				} else {
 					detectedEmojis = append(detectedEmojis, SearchResult{
 						Match:       e,
 						Occurrences: 1,
+						Locations: [][]int{
+							[]int{index, (nextIndex - 1)},
+						},
 					})
 				}
 			}

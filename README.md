@@ -8,28 +8,28 @@ A collection of useful functions for working with emoji. For example: look up th
  - [x] Search a string for the presence specific emoji
  - [x] Look up the definition of a single emoji
  - [x] Look up the definitions for a list of emojis
- - [X] Import tool to update Emoji data with [Emojipedia](http://emojipedia.org/) specs
- - [ ] Find the location of and occurrences of a specific emoji in a string
+ - [x] Import tool to update Emoji data with [Emojipedia](http://emojipedia.org/) specs
+ - [x] Find the location of and occurrences of a specific emoji in a string
 
 ## Examples
 ### Find all occurrences of emoji in a string
-You can search a string for all occurrences of emoji. You will be returned an array of results specifying which emojis were found, and how many times each occurred.
+You can search a string for all occurrences of emoji. You will be returned an array of results specifying which emojis were found, and how many times each occurred. The `Locations` property comprises of an array containing the start and end locations of each occurance of the emoji within the string you're searching.
 
 ```go
 input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
 result := emoji.FindAll(input)
 
-// result: SearchResults{ SearchResult{ Match: Emoji{…}, Occurrences: 1 }, …}
+// result: SearchResults{ SearchResult{ Match: Emoji{…}, Occurrences: 1, Locations: […] }, …}
 ```
 
 ### Search a string for the presence specific emoji
-You can search a string for the presence of a specific emoji. You will be returned a `SearchResult` struct with the definition of the matching emoji and how many times it occurred in the string.
+You can search a string for the presence of a specific emoji. You will be returned a `SearchResult` struct with the definition of the matching emoji, how many times it occurred in the string, and its location within the string. 
 
 ```go
 input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
 result := emoji.Find("🐷", input)
 
-// result: SearchResult{ Match: Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, Occurrences: 2 } }
+// result: SearchResult{ Match: Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, Occurrences: 2, Locations: [[19 19] [42 42]  } }
 ```
 
 ### Checking search results for the occurrence of a specific emoji
