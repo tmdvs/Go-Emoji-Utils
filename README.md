@@ -8,6 +8,7 @@ A collection of useful functions for working with emoji. For example: look up th
  - [x] Search a string for the presence specific emoji
  - [x] Look up the definition of a single emoji
  - [x] Look up the definitions for a list of emojis
+ - [x] Remove all emoji from a string
  - [x] Import tool to update Emoji data with [Emojipedia](http://emojipedia.org/) specs
  - [x] Find the location of and occurrences of a specific emoji in a string
 
@@ -16,7 +17,7 @@ A collection of useful functions for working with emoji. For example: look up th
 You can search a string for all occurrences of emoji. You will be returned an array of results specifying which emojis were found, and how many times each occurred. The `Locations` property comprises of an array containing the start and end locations of each occurance of the emoji within the string you're searching.
 
 ```go
-input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
+input := "This is a string 😄 🐷 with some 👍🏻 🙈 emoji! 🐷 🏃🏿‍♂️"
 result := emoji.FindAll(input)
 
 // result: SearchResults{ SearchResult{ Match: Emoji{…}, Occurrences: 1, Locations: […] }, …}
@@ -26,7 +27,7 @@ result := emoji.FindAll(input)
 You can search a string for the presence of a specific emoji. You will be returned a `SearchResult` struct with the definition of the matching emoji, how many times it occurred in the string, and its location within the string. 
 
 ```go
-input := "This is a string 😄 🐷 with some 👍🏻🙈 emoji! 🐷 🏃🏿‍♂️"
+input := "This is a string 😄 🐷 with some 👍🏻 🙈 emoji! 🐷 🏃🏿‍♂️"
 result := emoji.Find("🐷", input)
 
 // result: SearchResult{ Match: Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, Occurrences: 2, Locations: [[19 19] [42 42]  } }
@@ -62,6 +63,16 @@ Results are returned in the same order that the input strings were provided in. 
 result := emoji.LookupEmojis([]string{"🐷", "🙈"})
 
 // result: []interface{}{ Emoji{ Key:"1F437", Value:"🐷", Descriptor: "pig" }, …}
+```
+
+### Remove all emoji from a string
+You can remove all the emoji characters from a string. This function finds all occurences of emoji using the `FindAll` function, and uses the `Location` field to remove runes at those indexes.
+
+```go
+input := "This is a string 😄 🐷 with some 👍🏻 🙈 emoji! 🐷 🏃🏿‍♂️ 🥰"
+output := emoji.RemoveAll(input)
+
+// output: "This is a string with some emoji!"
 ```
 
 ### Updating the Emoji definitions data file

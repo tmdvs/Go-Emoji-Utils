@@ -7,6 +7,7 @@ import (
 	"os"
 	"path"
 	"runtime"
+	"strings"
 
 	"github.com/tmdvs/Go-Emoji-Utils/utils"
 )
@@ -71,4 +72,37 @@ func LookupEmojis(emoji []string) (matches []interface{}) {
 	}
 
 	return
+}
+
+// RemoveAll - Remove all emoji
+func RemoveAll(input string) string {
+
+	// Find all the emojis in this string
+	matches := FindAll(input)
+
+	// Make a list of the indexes of all the runes used for emoji characters
+	emojiRunes := []int{}
+	for _, match := range matches {
+		for _, loc := range match.Locations {
+			for i := loc[0]; i <= loc[1]; i++ {
+				emojiRunes = append(emojiRunes, i)
+			}
+		}
+	}
+
+	// Loop over the input strings runes
+	runes := []rune(input)
+	for i := len(runes); i >= 0; i-- {
+
+		// Loop through the runes indexes used for emoji
+		for _, e := range emojiRunes {
+			// If the current rune is an emoji rune we'll remove it
+			if i == e {
+				runes = append(runes[:i-1], runes[i:]...)
+			}
+		}
+	}
+
+	// Remove and trim and left over whitespace
+	return strings.TrimSpace(strings.Join(strings.Fields(string(runes)), " "))
 }

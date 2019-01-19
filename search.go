@@ -126,16 +126,19 @@ func FindAll(input string) (detectedEmojis SearchResults) {
 		for key, e := range potentialMatches {
 			if _, match := Emojis[key]; match {
 
+				// How many runes does this emoji use
+				emojiRuneLength := len(strings.Split(e.Key, "-"))
+
 				// Have we already accounted for this match?
 				if i := detectedEmojis.IndexOf(e); i != -1 {
 					detectedEmojis[i].Occurrences++
-					detectedEmojis[i].Locations = append(detectedEmojis[i].Locations, []int{index, (nextIndex - 1)})
+					detectedEmojis[i].Locations = append(detectedEmojis[i].Locations, []int{index, index + emojiRuneLength})
 				} else {
 					detectedEmojis = append(detectedEmojis, SearchResult{
 						Match:       e,
 						Occurrences: 1,
 						Locations: [][]int{
-							[]int{index, (nextIndex - 1)},
+							[]int{index, index + emojiRuneLength},
 						},
 					})
 				}
