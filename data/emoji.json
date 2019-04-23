@@ -832,7 +832,7 @@
 	"1F1F2-1F1F0": {
 		"key": "1F1F2-1F1F0",
 		"value": "🇲🇰",
-		"descriptor": "Flag: Macedonia"
+		"descriptor": "Flag: North Macedonia"
 	},
 	"1F1F2-1F1F1": {
 		"key": "1F1F2-1F1F1",
@@ -5502,17 +5502,17 @@
 	"1F46B": {
 		"key": "1F46B",
 		"value": "👫",
-		"descriptor": "Man and Woman Holding Hands"
+		"descriptor": "Woman and Man Holding Hands"
 	},
 	"1F46C": {
 		"key": "1F46C",
 		"value": "👬",
-		"descriptor": "Two Men Holding Hands"
+		"descriptor": "Men Holding Hands"
 	},
 	"1F46D": {
 		"key": "1F46D",
 		"value": "👭",
-		"descriptor": "Two Women Holding Hands"
+		"descriptor": "Women Holding Hands"
 	},
 	"1F46E": {
 		"key": "1F46E",
@@ -11207,7 +11207,7 @@
 	"1F970": {
 		"key": "1F970",
 		"value": "🥰",
-		"descriptor": "Smiling Face With 3 Hearts"
+		"descriptor": "Smiling Face With Hearts"
 	},
 	"1F973": {
 		"key": "1F973",
