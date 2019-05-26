@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/tmdvs/Go-Emoji-Utils/utils"
+	"github.com/wubin1989/Go-Emoji-Utils/utils"
 )
 
 // Emoji - Struct representing Emoji
@@ -80,29 +80,15 @@ func RemoveAll(input string) string {
 	// Find all the emojis in this string
 	matches := FindAll(input)
 
-	// Make a list of the indexes of all the runes used for emoji characters
-	emojiRunes := []int{}
-	for _, match := range matches {
-		for _, loc := range match.Locations {
-			for i := loc[0]; i <= loc[1]; i++ {
-				emojiRunes = append(emojiRunes, i)
-			}
-		}
-	}
-
-	// Loop over the input strings runes
-	runes := []rune(input)
-	for i := len(runes); i >= 0; i-- {
-
-		// Loop through the runes indexes used for emoji
-		for _, e := range emojiRunes {
-			// If the current rune is an emoji rune we'll remove it
-			if i == e {
-				runes = append(runes[:i-1], runes[i:]...)
-			}
+	for _, item :=range matches {
+		emo := item.Match.(Emoji)
+		rs := []rune(emo.Value)
+		for _, r :=range rs{
+			input = strings.ReplaceAll(input, string([]rune{r}), "")
 		}
 	}
 
 	// Remove and trim and left over whitespace
-	return strings.TrimSpace(strings.Join(strings.Fields(string(runes)), " "))
+	return strings.TrimSpace(strings.Join(strings.Fields(input), " "))
+	//return input
 }
