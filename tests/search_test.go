@@ -4,8 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/wubin1989/Go-Emoji-Utils"
-	tmdvsGoEmojiUtils "github.com/tmdvs/Go-Emoji-Utils"
+	emoji "github.com/tmdvs/Go-Emoji-Utils"
 )
 
 func BenchmarkSearch(b *testing.B) {
@@ -36,6 +35,18 @@ func TestRemoveAllEmoji(t *testing.T) {
 	emojiRemoved := emoji.RemoveAll(str)
 	assert.Equal(t, "This is a string with some emoji!", emojiRemoved, "There should be no emoji")
 
+}
+
+func TestContinuousEmoji(t *testing.T) {
+	str := "abc🙏🙏🙏🙏🙏"
+
+	matches := emoji.FindAll(str)
+	totalUniqueEmoji := len(matches)
+
+	assert.Equal(t, totalUniqueEmoji, 1, "There should be 1 unique emoji")
+
+	emojiRemoved := emoji.RemoveAll(str)
+	assert.Equal(t, "abc", emojiRemoved, "There should be no emoji")
 }
 
 func TestRemoveAllEmojiChinese(t *testing.T) {
@@ -103,7 +114,7 @@ func TestOutOfRangeError(t *testing.T) {
 
 	assert.Equal(t, totalUniqueEmoji, 4, "There should be one emoji")
 
-	emojiRemoved := tmdvsGoEmojiUtils.RemoveAll(str)
+	emojiRemoved := emoji.RemoveAll(str)
 	assert.Equal(t, "武柳昊雨", emojiRemoved, "There should be no emoji")
 
 }
