@@ -15868,10 +15868,5 @@
 		"key": "AE-FE0F",
 		"value": "®️",
 		"descriptor": "Registered"
-	},
-	"FE0F": {
-		"key": "FE0F",
-		"value": "️",
-		"descriptor": "Variation Selector-16"
 	}
 }
