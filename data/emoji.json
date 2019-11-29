@@ -852,7 +852,7 @@
 	"1F1F2-1F1F4": {
 		"key": "1F1F2-1F1F4",
 		"value": "🇲🇴",
-		"descriptor": "Flag: Macau Sar China"
+		"descriptor": "Flag: Macao Sar China"
 	},
 	"1F1F2-1F1F5": {
 		"key": "1F1F2-1F1F5",
@@ -1177,7 +1177,7 @@
 	"1F1F8-1F1FF": {
 		"key": "1F1F8-1F1FF",
 		"value": "🇸🇿",
-		"descriptor": "Flag: Swaziland"
+		"descriptor": "Flag: Eswatini"
 	},
 	"1F1F9-1F1E6": {
 		"key": "1F1F9-1F1E6",
@@ -3289,6 +3289,11 @@
 		"value": "🐕",
 		"descriptor": "Dog"
 	},
+	"1F415-200D-1F9BA": {
+		"key": "1F415-200D-1F9BA",
+		"value": "🐕‍🦺",
+		"descriptor": "Service Dog"
+	},
 	"1F416": {
 		"key": "1F416",
 		"value": "🐖",
@@ -3462,27 +3467,27 @@
 	"1F438": {
 		"key": "1F438",
 		"value": "🐸",
-		"descriptor": "Frog Face"
+		"descriptor": "Frog"
 	},
 	"1F439": {
 		"key": "1F439",
 		"value": "🐹",
-		"descriptor": "Hamster Face"
+		"descriptor": "Hamster"
 	},
 	"1F43A": {
 		"key": "1F43A",
 		"value": "🐺",
-		"descriptor": "Wolf Face"
+		"descriptor": "Wolf"
 	},
 	"1F43B": {
 		"key": "1F43B",
 		"value": "🐻",
-		"descriptor": "Bear Face"
+		"descriptor": "Bear"
 	},
 	"1F43C": {
 		"key": "1F43C",
 		"value": "🐼",
-		"descriptor": "Panda Face"
+		"descriptor": "Panda"
 	},
 	"1F43D": {
 		"key": "1F43D",
@@ -4154,6 +4159,31 @@
 		"value": "👨🏻‍🚒",
 		"descriptor": "Man Firefighter: Light Skin Tone"
 	},
+	"1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👨🏻‍🤝‍👨🏼",
+		"descriptor": "Men Holding Hands: Light Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👨🏻‍🤝‍👨🏽",
+		"descriptor": "Men Holding Hands: Light Skin Tone, Medium Skin Tone"
+	},
+	"1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👨🏻‍🤝‍👨🏾",
+		"descriptor": "Men Holding Hands: Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F468-1F3FB-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👨🏻‍🤝‍👨🏿",
+		"descriptor": "Men Holding Hands: Light Skin Tone, Dark Skin Tone"
+	},
+	"1F468-1F3FB-200D-1F9AF": {
+		"key": "1F468-1F3FB-200D-1F9AF",
+		"value": "👨🏻‍🦯",
+		"descriptor": "Man With Probing Cane: Light Skin Tone"
+	},
 	"1F468-1F3FB-200D-1F9B0": {
 		"key": "1F468-1F3FB-200D-1F9B0",
 		"value": "👨🏻‍🦰",
@@ -4173,6 +4203,16 @@
 		"key": "1F468-1F3FB-200D-1F9B3",
 		"value": "👨🏻‍🦳",
 		"descriptor": "Man: Light Skin Tone, White Hair"
+	},
+	"1F468-1F3FB-200D-1F9BC": {
+		"key": "1F468-1F3FB-200D-1F9BC",
+		"value": "👨🏻‍🦼",
+		"descriptor": "Man in Motorized Wheelchair: Light Skin Tone"
+	},
+	"1F468-1F3FB-200D-1F9BD": {
+		"key": "1F468-1F3FB-200D-1F9BD",
+		"value": "👨🏻‍🦽",
+		"descriptor": "Man in Manual Wheelchair: Light Skin Tone"
 	},
 	"1F468-1F3FB-200D-2695-FE0F": {
 		"key": "1F468-1F3FB-200D-2695-FE0F",
@@ -4259,6 +4299,31 @@
 		"value": "👨🏼‍🚒",
 		"descriptor": "Man Firefighter: Medium-Light Skin Tone"
 	},
+	"1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👨🏼‍🤝‍👨🏻",
+		"descriptor": "Men Holding Hands: Medium-Light Skin Tone, Light Skin Tone"
+	},
+	"1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👨🏼‍🤝‍👨🏽",
+		"descriptor": "Men Holding Hands: Medium-Light Skin Tone, Medium Skin Tone"
+	},
+	"1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👨🏼‍🤝‍👨🏾",
+		"descriptor": "Men Holding Hands: Medium-Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F468-1F3FC-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👨🏼‍🤝‍👨🏿",
+		"descriptor": "Men Holding Hands: Medium-Light Skin Tone, Dark Skin Tone"
+	},
+	"1F468-1F3FC-200D-1F9AF": {
+		"key": "1F468-1F3FC-200D-1F9AF",
+		"value": "👨🏼‍🦯",
+		"descriptor": "Man With Probing Cane: Medium-Light Skin Tone"
+	},
 	"1F468-1F3FC-200D-1F9B0": {
 		"key": "1F468-1F3FC-200D-1F9B0",
 		"value": "👨🏼‍🦰",
@@ -4278,6 +4343,16 @@
 		"key": "1F468-1F3FC-200D-1F9B3",
 		"value": "👨🏼‍🦳",
 		"descriptor": "Man: Medium-Light Skin Tone, White Hair"
+	},
+	"1F468-1F3FC-200D-1F9BC": {
+		"key": "1F468-1F3FC-200D-1F9BC",
+		"value": "👨🏼‍🦼",
+		"descriptor": "Man in Motorized Wheelchair: Medium-Light Skin Tone"
+	},
+	"1F468-1F3FC-200D-1F9BD": {
+		"key": "1F468-1F3FC-200D-1F9BD",
+		"value": "👨🏼‍🦽",
+		"descriptor": "Man in Manual Wheelchair: Medium-Light Skin Tone"
 	},
 	"1F468-1F3FC-200D-2695-FE0F": {
 		"key": "1F468-1F3FC-200D-2695-FE0F",
@@ -4364,6 +4439,31 @@
 		"value": "👨🏽‍🚒",
 		"descriptor": "Man Firefighter: Medium Skin Tone"
 	},
+	"1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👨🏽‍🤝‍👨🏻",
+		"descriptor": "Men Holding Hands: Medium Skin Tone, Light Skin Tone"
+	},
+	"1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👨🏽‍🤝‍👨🏼",
+		"descriptor": "Men Holding Hands: Medium Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👨🏽‍🤝‍👨🏾",
+		"descriptor": "Men Holding Hands: Medium Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F468-1F3FD-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👨🏽‍🤝‍👨🏿",
+		"descriptor": "Men Holding Hands: Medium Skin Tone, Dark Skin Tone"
+	},
+	"1F468-1F3FD-200D-1F9AF": {
+		"key": "1F468-1F3FD-200D-1F9AF",
+		"value": "👨🏽‍🦯",
+		"descriptor": "Man With Probing Cane: Medium Skin Tone"
+	},
 	"1F468-1F3FD-200D-1F9B0": {
 		"key": "1F468-1F3FD-200D-1F9B0",
 		"value": "👨🏽‍🦰",
@@ -4383,6 +4483,16 @@
 		"key": "1F468-1F3FD-200D-1F9B3",
 		"value": "👨🏽‍🦳",
 		"descriptor": "Man: Medium Skin Tone, White Hair"
+	},
+	"1F468-1F3FD-200D-1F9BC": {
+		"key": "1F468-1F3FD-200D-1F9BC",
+		"value": "👨🏽‍🦼",
+		"descriptor": "Man in Motorized Wheelchair: Medium Skin Tone"
+	},
+	"1F468-1F3FD-200D-1F9BD": {
+		"key": "1F468-1F3FD-200D-1F9BD",
+		"value": "👨🏽‍🦽",
+		"descriptor": "Man in Manual Wheelchair: Medium Skin Tone"
 	},
 	"1F468-1F3FD-200D-2695-FE0F": {
 		"key": "1F468-1F3FD-200D-2695-FE0F",
@@ -4469,6 +4579,31 @@
 		"value": "👨🏾‍🚒",
 		"descriptor": "Man Firefighter: Medium-Dark Skin Tone"
 	},
+	"1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👨🏾‍🤝‍👨🏻",
+		"descriptor": "Men Holding Hands: Medium-Dark Skin Tone, Light Skin Tone"
+	},
+	"1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👨🏾‍🤝‍👨🏼",
+		"descriptor": "Men Holding Hands: Medium-Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👨🏾‍🤝‍👨🏽",
+		"descriptor": "Men Holding Hands: Medium-Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F468-1F3FE-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👨🏾‍🤝‍👨🏿",
+		"descriptor": "Men Holding Hands: Medium-Dark Skin Tone, Dark Skin Tone"
+	},
+	"1F468-1F3FE-200D-1F9AF": {
+		"key": "1F468-1F3FE-200D-1F9AF",
+		"value": "👨🏾‍🦯",
+		"descriptor": "Man With Probing Cane: Medium-Dark Skin Tone"
+	},
 	"1F468-1F3FE-200D-1F9B0": {
 		"key": "1F468-1F3FE-200D-1F9B0",
 		"value": "👨🏾‍🦰",
@@ -4488,6 +4623,16 @@
 		"key": "1F468-1F3FE-200D-1F9B3",
 		"value": "👨🏾‍🦳",
 		"descriptor": "Man: Medium-Dark Skin Tone, White Hair"
+	},
+	"1F468-1F3FE-200D-1F9BC": {
+		"key": "1F468-1F3FE-200D-1F9BC",
+		"value": "👨🏾‍🦼",
+		"descriptor": "Man in Motorized Wheelchair: Medium-Dark Skin Tone"
+	},
+	"1F468-1F3FE-200D-1F9BD": {
+		"key": "1F468-1F3FE-200D-1F9BD",
+		"value": "👨🏾‍🦽",
+		"descriptor": "Man in Manual Wheelchair: Medium-Dark Skin Tone"
 	},
 	"1F468-1F3FE-200D-2695-FE0F": {
 		"key": "1F468-1F3FE-200D-2695-FE0F",
@@ -4574,6 +4719,31 @@
 		"value": "👨🏿‍🚒",
 		"descriptor": "Man Firefighter: Dark Skin Tone"
 	},
+	"1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👨🏿‍🤝‍👨🏻",
+		"descriptor": "Men Holding Hands: Dark Skin Tone, Light Skin Tone"
+	},
+	"1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👨🏿‍🤝‍👨🏼",
+		"descriptor": "Men Holding Hands: Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👨🏿‍🤝‍👨🏽",
+		"descriptor": "Men Holding Hands: Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F468-1F3FF-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👨🏿‍🤝‍👨🏾",
+		"descriptor": "Men Holding Hands: Dark Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F468-1F3FF-200D-1F9AF": {
+		"key": "1F468-1F3FF-200D-1F9AF",
+		"value": "👨🏿‍🦯",
+		"descriptor": "Man With Probing Cane: Dark Skin Tone"
+	},
 	"1F468-1F3FF-200D-1F9B0": {
 		"key": "1F468-1F3FF-200D-1F9B0",
 		"value": "👨🏿‍🦰",
@@ -4593,6 +4763,16 @@
 		"key": "1F468-1F3FF-200D-1F9B3",
 		"value": "👨🏿‍🦳",
 		"descriptor": "Man: Dark Skin Tone, White Hair"
+	},
+	"1F468-1F3FF-200D-1F9BC": {
+		"key": "1F468-1F3FF-200D-1F9BC",
+		"value": "👨🏿‍🦼",
+		"descriptor": "Man in Motorized Wheelchair: Dark Skin Tone"
+	},
+	"1F468-1F3FF-200D-1F9BD": {
+		"key": "1F468-1F3FF-200D-1F9BD",
+		"value": "👨🏿‍🦽",
+		"descriptor": "Man in Manual Wheelchair: Dark Skin Tone"
 	},
 	"1F468-1F3FF-200D-2695-FE0F": {
 		"key": "1F468-1F3FF-200D-2695-FE0F",
@@ -4749,6 +4929,11 @@
 		"value": "👨‍🚒",
 		"descriptor": "Man Firefighter"
 	},
+	"1F468-200D-1F9AF": {
+		"key": "1F468-200D-1F9AF",
+		"value": "👨‍🦯",
+		"descriptor": "Man With Probing Cane"
+	},
 	"1F468-200D-1F9B0": {
 		"key": "1F468-200D-1F9B0",
 		"value": "👨‍🦰",
@@ -4768,6 +4953,16 @@
 		"key": "1F468-200D-1F9B3",
 		"value": "👨‍🦳",
 		"descriptor": "Man: White Hair"
+	},
+	"1F468-200D-1F9BC": {
+		"key": "1F468-200D-1F9BC",
+		"value": "👨‍🦼",
+		"descriptor": "Man in Motorized Wheelchair"
+	},
+	"1F468-200D-1F9BD": {
+		"key": "1F468-200D-1F9BD",
+		"value": "👨‍🦽",
+		"descriptor": "Man in Manual Wheelchair"
 	},
 	"1F468-200D-2695-FE0F": {
 		"key": "1F468-200D-2695-FE0F",
@@ -4869,6 +5064,51 @@
 		"value": "👩🏻‍🚒",
 		"descriptor": "Woman Firefighter: Light Skin Tone"
 	},
+	"1F469-1F3FB-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👩🏻‍🤝‍👨🏼",
+		"descriptor": "Woman and Man Holding Hands: Light Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👩🏻‍🤝‍👨🏽",
+		"descriptor": "Woman and Man Holding Hands: Light Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👩🏻‍🤝‍👨🏾",
+		"descriptor": "Woman and Man Holding Hands: Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👩🏻‍🤝‍👨🏿",
+		"descriptor": "Woman and Man Holding Hands: Light Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FC",
+		"value": "👩🏻‍🤝‍👩🏼",
+		"descriptor": "Women Holding Hands: Light Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FD",
+		"value": "👩🏻‍🤝‍👩🏽",
+		"descriptor": "Women Holding Hands: Light Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FE",
+		"value": "👩🏻‍🤝‍👩🏾",
+		"descriptor": "Women Holding Hands: Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF": {
+		"key": "1F469-1F3FB-200D-1F91D-200D-1F469-1F3FF",
+		"value": "👩🏻‍🤝‍👩🏿",
+		"descriptor": "Women Holding Hands: Light Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F9AF": {
+		"key": "1F469-1F3FB-200D-1F9AF",
+		"value": "👩🏻‍🦯",
+		"descriptor": "Woman With Probing Cane: Light Skin Tone"
+	},
 	"1F469-1F3FB-200D-1F9B0": {
 		"key": "1F469-1F3FB-200D-1F9B0",
 		"value": "👩🏻‍🦰",
@@ -4888,6 +5128,16 @@
 		"key": "1F469-1F3FB-200D-1F9B3",
 		"value": "👩🏻‍🦳",
 		"descriptor": "Woman: Light Skin Tone, White Hair"
+	},
+	"1F469-1F3FB-200D-1F9BC": {
+		"key": "1F469-1F3FB-200D-1F9BC",
+		"value": "👩🏻‍🦼",
+		"descriptor": "Woman in Motorized Wheelchair: Light Skin Tone"
+	},
+	"1F469-1F3FB-200D-1F9BD": {
+		"key": "1F469-1F3FB-200D-1F9BD",
+		"value": "👩🏻‍🦽",
+		"descriptor": "Woman in Manual Wheelchair: Light Skin Tone"
 	},
 	"1F469-1F3FB-200D-2695-FE0F": {
 		"key": "1F469-1F3FB-200D-2695-FE0F",
@@ -4974,6 +5224,51 @@
 		"value": "👩🏼‍🚒",
 		"descriptor": "Woman Firefighter: Medium-Light Skin Tone"
 	},
+	"1F469-1F3FC-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👩🏼‍🤝‍👨🏻",
+		"descriptor": "Woman and Man Holding Hands: Medium-Light Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👩🏼‍🤝‍👨🏽",
+		"descriptor": "Woman and Man Holding Hands: Medium-Light Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👩🏼‍🤝‍👨🏾",
+		"descriptor": "Woman and Man Holding Hands: Medium-Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👩🏼‍🤝‍👨🏿",
+		"descriptor": "Woman and Man Holding Hands: Medium-Light Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FB",
+		"value": "👩🏼‍🤝‍👩🏻",
+		"descriptor": "Women Holding Hands: Medium-Light Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FD",
+		"value": "👩🏼‍🤝‍👩🏽",
+		"descriptor": "Women Holding Hands: Medium-Light Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FE",
+		"value": "👩🏼‍🤝‍👩🏾",
+		"descriptor": "Women Holding Hands: Medium-Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF": {
+		"key": "1F469-1F3FC-200D-1F91D-200D-1F469-1F3FF",
+		"value": "👩🏼‍🤝‍👩🏿",
+		"descriptor": "Women Holding Hands: Medium-Light Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F9AF": {
+		"key": "1F469-1F3FC-200D-1F9AF",
+		"value": "👩🏼‍🦯",
+		"descriptor": "Woman With Probing Cane: Medium-Light Skin Tone"
+	},
 	"1F469-1F3FC-200D-1F9B0": {
 		"key": "1F469-1F3FC-200D-1F9B0",
 		"value": "👩🏼‍🦰",
@@ -4993,6 +5288,16 @@
 		"key": "1F469-1F3FC-200D-1F9B3",
 		"value": "👩🏼‍🦳",
 		"descriptor": "Woman: Medium-Light Skin Tone, White Hair"
+	},
+	"1F469-1F3FC-200D-1F9BC": {
+		"key": "1F469-1F3FC-200D-1F9BC",
+		"value": "👩🏼‍🦼",
+		"descriptor": "Woman in Motorized Wheelchair: Medium-Light Skin Tone"
+	},
+	"1F469-1F3FC-200D-1F9BD": {
+		"key": "1F469-1F3FC-200D-1F9BD",
+		"value": "👩🏼‍🦽",
+		"descriptor": "Woman in Manual Wheelchair: Medium-Light Skin Tone"
 	},
 	"1F469-1F3FC-200D-2695-FE0F": {
 		"key": "1F469-1F3FC-200D-2695-FE0F",
@@ -5079,6 +5384,51 @@
 		"value": "👩🏽‍🚒",
 		"descriptor": "Woman Firefighter: Medium Skin Tone"
 	},
+	"1F469-1F3FD-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👩🏽‍🤝‍👨🏻",
+		"descriptor": "Woman and Man Holding Hands: Medium Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👩🏽‍🤝‍👨🏼",
+		"descriptor": "Woman and Man Holding Hands: Medium Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👩🏽‍🤝‍👨🏾",
+		"descriptor": "Woman and Man Holding Hands: Medium Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👩🏽‍🤝‍👨🏿",
+		"descriptor": "Woman and Man Holding Hands: Medium Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FB",
+		"value": "👩🏽‍🤝‍👩🏻",
+		"descriptor": "Women Holding Hands: Medium Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FC",
+		"value": "👩🏽‍🤝‍👩🏼",
+		"descriptor": "Women Holding Hands: Medium Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FE",
+		"value": "👩🏽‍🤝‍👩🏾",
+		"descriptor": "Women Holding Hands: Medium Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF": {
+		"key": "1F469-1F3FD-200D-1F91D-200D-1F469-1F3FF",
+		"value": "👩🏽‍🤝‍👩🏿",
+		"descriptor": "Women Holding Hands: Medium Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F9AF": {
+		"key": "1F469-1F3FD-200D-1F9AF",
+		"value": "👩🏽‍🦯",
+		"descriptor": "Woman With Probing Cane: Medium Skin Tone"
+	},
 	"1F469-1F3FD-200D-1F9B0": {
 		"key": "1F469-1F3FD-200D-1F9B0",
 		"value": "👩🏽‍🦰",
@@ -5098,6 +5448,16 @@
 		"key": "1F469-1F3FD-200D-1F9B3",
 		"value": "👩🏽‍🦳",
 		"descriptor": "Woman: Medium Skin Tone, White Hair"
+	},
+	"1F469-1F3FD-200D-1F9BC": {
+		"key": "1F469-1F3FD-200D-1F9BC",
+		"value": "👩🏽‍🦼",
+		"descriptor": "Woman in Motorized Wheelchair: Medium Skin Tone"
+	},
+	"1F469-1F3FD-200D-1F9BD": {
+		"key": "1F469-1F3FD-200D-1F9BD",
+		"value": "👩🏽‍🦽",
+		"descriptor": "Woman in Manual Wheelchair: Medium Skin Tone"
 	},
 	"1F469-1F3FD-200D-2695-FE0F": {
 		"key": "1F469-1F3FD-200D-2695-FE0F",
@@ -5184,6 +5544,51 @@
 		"value": "👩🏾‍🚒",
 		"descriptor": "Woman Firefighter: Medium-Dark Skin Tone"
 	},
+	"1F469-1F3FE-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👩🏾‍🤝‍👨🏻",
+		"descriptor": "Woman and Man Holding Hands: Medium-Dark Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👩🏾‍🤝‍👨🏼",
+		"descriptor": "Woman and Man Holding Hands: Medium-Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👩🏾‍🤝‍👨🏽",
+		"descriptor": "Woman and Man Holding Hands: Medium-Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F91D-200D-1F468-1F3FF": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F468-1F3FF",
+		"value": "👩🏾‍🤝‍👨🏿",
+		"descriptor": "Woman and Man Holding Hands: Medium-Dark Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FB",
+		"value": "👩🏾‍🤝‍👩🏻",
+		"descriptor": "Women Holding Hands: Medium-Dark Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FC",
+		"value": "👩🏾‍🤝‍👩🏼",
+		"descriptor": "Women Holding Hands: Medium-Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FD",
+		"value": "👩🏾‍🤝‍👩🏽",
+		"descriptor": "Women Holding Hands: Medium-Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF": {
+		"key": "1F469-1F3FE-200D-1F91D-200D-1F469-1F3FF",
+		"value": "👩🏾‍🤝‍👩🏿",
+		"descriptor": "Women Holding Hands: Medium-Dark Skin Tone, Dark Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F9AF": {
+		"key": "1F469-1F3FE-200D-1F9AF",
+		"value": "👩🏾‍🦯",
+		"descriptor": "Woman With Probing Cane: Medium-Dark Skin Tone"
+	},
 	"1F469-1F3FE-200D-1F9B0": {
 		"key": "1F469-1F3FE-200D-1F9B0",
 		"value": "👩🏾‍🦰",
@@ -5203,6 +5608,16 @@
 		"key": "1F469-1F3FE-200D-1F9B3",
 		"value": "👩🏾‍🦳",
 		"descriptor": "Woman: Medium-Dark Skin Tone, White Hair"
+	},
+	"1F469-1F3FE-200D-1F9BC": {
+		"key": "1F469-1F3FE-200D-1F9BC",
+		"value": "👩🏾‍🦼",
+		"descriptor": "Woman in Motorized Wheelchair: Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FE-200D-1F9BD": {
+		"key": "1F469-1F3FE-200D-1F9BD",
+		"value": "👩🏾‍🦽",
+		"descriptor": "Woman in Manual Wheelchair: Medium-Dark Skin Tone"
 	},
 	"1F469-1F3FE-200D-2695-FE0F": {
 		"key": "1F469-1F3FE-200D-2695-FE0F",
@@ -5289,6 +5704,51 @@
 		"value": "👩🏿‍🚒",
 		"descriptor": "Woman Firefighter: Dark Skin Tone"
 	},
+	"1F469-1F3FF-200D-1F91D-200D-1F468-1F3FB": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F468-1F3FB",
+		"value": "👩🏿‍🤝‍👨🏻",
+		"descriptor": "Woman and Man Holding Hands: Dark Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F91D-200D-1F468-1F3FC": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F468-1F3FC",
+		"value": "👩🏿‍🤝‍👨🏼",
+		"descriptor": "Woman and Man Holding Hands: Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F91D-200D-1F468-1F3FD": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F468-1F3FD",
+		"value": "👩🏿‍🤝‍👨🏽",
+		"descriptor": "Woman and Man Holding Hands: Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F91D-200D-1F468-1F3FE": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F468-1F3FE",
+		"value": "👩🏿‍🤝‍👨🏾",
+		"descriptor": "Woman and Man Holding Hands: Dark Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FB",
+		"value": "👩🏿‍🤝‍👩🏻",
+		"descriptor": "Women Holding Hands: Dark Skin Tone, Light Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FC",
+		"value": "👩🏿‍🤝‍👩🏼",
+		"descriptor": "Women Holding Hands: Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FD",
+		"value": "👩🏿‍🤝‍👩🏽",
+		"descriptor": "Women Holding Hands: Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE": {
+		"key": "1F469-1F3FF-200D-1F91D-200D-1F469-1F3FE",
+		"value": "👩🏿‍🤝‍👩🏾",
+		"descriptor": "Women Holding Hands: Dark Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F9AF": {
+		"key": "1F469-1F3FF-200D-1F9AF",
+		"value": "👩🏿‍🦯",
+		"descriptor": "Woman With Probing Cane: Dark Skin Tone"
+	},
 	"1F469-1F3FF-200D-1F9B0": {
 		"key": "1F469-1F3FF-200D-1F9B0",
 		"value": "👩🏿‍🦰",
@@ -5308,6 +5768,16 @@
 		"key": "1F469-1F3FF-200D-1F9B3",
 		"value": "👩🏿‍🦳",
 		"descriptor": "Woman: Dark Skin Tone, White Hair"
+	},
+	"1F469-1F3FF-200D-1F9BC": {
+		"key": "1F469-1F3FF-200D-1F9BC",
+		"value": "👩🏿‍🦼",
+		"descriptor": "Woman in Motorized Wheelchair: Dark Skin Tone"
+	},
+	"1F469-1F3FF-200D-1F9BD": {
+		"key": "1F469-1F3FF-200D-1F9BD",
+		"value": "👩🏿‍🦽",
+		"descriptor": "Woman in Manual Wheelchair: Dark Skin Tone"
 	},
 	"1F469-1F3FF-200D-2695-FE0F": {
 		"key": "1F469-1F3FF-200D-2695-FE0F",
@@ -5439,6 +5909,11 @@
 		"value": "👩‍🚒",
 		"descriptor": "Woman Firefighter"
 	},
+	"1F469-200D-1F9AF": {
+		"key": "1F469-200D-1F9AF",
+		"value": "👩‍🦯",
+		"descriptor": "Woman With Probing Cane"
+	},
 	"1F469-200D-1F9B0": {
 		"key": "1F469-200D-1F9B0",
 		"value": "👩‍🦰",
@@ -5458,6 +5933,16 @@
 		"key": "1F469-200D-1F9B3",
 		"value": "👩‍🦳",
 		"descriptor": "Woman: White Hair"
+	},
+	"1F469-200D-1F9BC": {
+		"key": "1F469-200D-1F9BC",
+		"value": "👩‍🦼",
+		"descriptor": "Woman in Motorized Wheelchair"
+	},
+	"1F469-200D-1F9BD": {
+		"key": "1F469-200D-1F9BD",
+		"value": "👩‍🦽",
+		"descriptor": "Woman in Manual Wheelchair"
 	},
 	"1F469-200D-2695-FE0F": {
 		"key": "1F469-200D-2695-FE0F",
@@ -5504,15 +5989,90 @@
 		"value": "👫",
 		"descriptor": "Woman and Man Holding Hands"
 	},
+	"1F46B-1F3FB": {
+		"key": "1F46B-1F3FB",
+		"value": "👫🏻",
+		"descriptor": "Woman and Man Holding Hands: Light Skin Tone"
+	},
+	"1F46B-1F3FC": {
+		"key": "1F46B-1F3FC",
+		"value": "👫🏼",
+		"descriptor": "Woman and Man Holding Hands: Medium-Light Skin Tone"
+	},
+	"1F46B-1F3FD": {
+		"key": "1F46B-1F3FD",
+		"value": "👫🏽",
+		"descriptor": "Woman and Man Holding Hands: Medium Skin Tone"
+	},
+	"1F46B-1F3FE": {
+		"key": "1F46B-1F3FE",
+		"value": "👫🏾",
+		"descriptor": "Woman and Man Holding Hands: Medium-Dark Skin Tone"
+	},
+	"1F46B-1F3FF": {
+		"key": "1F46B-1F3FF",
+		"value": "👫🏿",
+		"descriptor": "Woman and Man Holding Hands: Dark Skin Tone"
+	},
 	"1F46C": {
 		"key": "1F46C",
 		"value": "👬",
 		"descriptor": "Men Holding Hands"
 	},
+	"1F46C-1F3FB": {
+		"key": "1F46C-1F3FB",
+		"value": "👬🏻",
+		"descriptor": "Men Holding Hands: Light Skin Tone"
+	},
+	"1F46C-1F3FC": {
+		"key": "1F46C-1F3FC",
+		"value": "👬🏼",
+		"descriptor": "Men Holding Hands: Medium-Light Skin Tone"
+	},
+	"1F46C-1F3FD": {
+		"key": "1F46C-1F3FD",
+		"value": "👬🏽",
+		"descriptor": "Men Holding Hands: Medium Skin Tone"
+	},
+	"1F46C-1F3FE": {
+		"key": "1F46C-1F3FE",
+		"value": "👬🏾",
+		"descriptor": "Men Holding Hands: Medium-Dark Skin Tone"
+	},
+	"1F46C-1F3FF": {
+		"key": "1F46C-1F3FF",
+		"value": "👬🏿",
+		"descriptor": "Men Holding Hands: Dark Skin Tone"
+	},
 	"1F46D": {
 		"key": "1F46D",
 		"value": "👭",
 		"descriptor": "Women Holding Hands"
+	},
+	"1F46D-1F3FB": {
+		"key": "1F46D-1F3FB",
+		"value": "👭🏻",
+		"descriptor": "Women Holding Hands: Light Skin Tone"
+	},
+	"1F46D-1F3FC": {
+		"key": "1F46D-1F3FC",
+		"value": "👭🏼",
+		"descriptor": "Women Holding Hands: Medium-Light Skin Tone"
+	},
+	"1F46D-1F3FD": {
+		"key": "1F46D-1F3FD",
+		"value": "👭🏽",
+		"descriptor": "Women Holding Hands: Medium Skin Tone"
+	},
+	"1F46D-1F3FE": {
+		"key": "1F46D-1F3FE",
+		"value": "👭🏾",
+		"descriptor": "Women Holding Hands: Medium-Dark Skin Tone"
+	},
+	"1F46D-1F3FF": {
+		"key": "1F46D-1F3FF",
+		"value": "👭🏿",
+		"descriptor": "Women Holding Hands: Dark Skin Tone"
 	},
 	"1F46E": {
 		"key": "1F46E",
@@ -5742,32 +6302,32 @@
 	"1F472": {
 		"key": "1F472",
 		"value": "👲",
-		"descriptor": "Man With Chinese Cap"
+		"descriptor": "Man With Skullcap"
 	},
 	"1F472-1F3FB": {
 		"key": "1F472-1F3FB",
 		"value": "👲🏻",
-		"descriptor": "Man With Chinese Cap: Light Skin Tone"
+		"descriptor": "Man With Skullcap: Light Skin Tone"
 	},
 	"1F472-1F3FC": {
 		"key": "1F472-1F3FC",
 		"value": "👲🏼",
-		"descriptor": "Man With Chinese Cap: Medium-Light Skin Tone"
+		"descriptor": "Man With Skullcap: Medium-Light Skin Tone"
 	},
 	"1F472-1F3FD": {
 		"key": "1F472-1F3FD",
 		"value": "👲🏽",
-		"descriptor": "Man With Chinese Cap: Medium Skin Tone"
+		"descriptor": "Man With Skullcap: Medium Skin Tone"
 	},
 	"1F472-1F3FE": {
 		"key": "1F472-1F3FE",
 		"value": "👲🏾",
-		"descriptor": "Man With Chinese Cap: Medium-Dark Skin Tone"
+		"descriptor": "Man With Skullcap: Medium-Dark Skin Tone"
 	},
 	"1F472-1F3FF": {
 		"key": "1F472-1F3FF",
 		"value": "👲🏿",
-		"descriptor": "Man With Chinese Cap: Dark Skin Tone"
+		"descriptor": "Man With Skullcap: Dark Skin Tone"
 	},
 	"1F473": {
 		"key": "1F473",
@@ -6842,7 +7402,7 @@
 	"1F4BB": {
 		"key": "1F4BB",
 		"value": "💻",
-		"descriptor": "Laptop Computer"
+		"descriptor": "Laptop"
 	},
 	"1F4BC": {
 		"key": "1F4BC",
@@ -8352,47 +8912,47 @@
 	"1F638": {
 		"key": "1F638",
 		"value": "😸",
-		"descriptor": "Grinning Cat Face With Smiling Eyes"
+		"descriptor": "Grinning Cat With Smiling Eyes"
 	},
 	"1F639": {
 		"key": "1F639",
 		"value": "😹",
-		"descriptor": "Cat Face With Tears of Joy"
+		"descriptor": "Cat With Tears of Joy"
 	},
 	"1F63A": {
 		"key": "1F63A",
 		"value": "😺",
-		"descriptor": "Grinning Cat Face"
+		"descriptor": "Grinning Cat"
 	},
 	"1F63B": {
 		"key": "1F63B",
 		"value": "😻",
-		"descriptor": "Smiling Cat Face With Heart-Eyes"
+		"descriptor": "Smiling Cat With Heart-Eyes"
 	},
 	"1F63C": {
 		"key": "1F63C",
 		"value": "😼",
-		"descriptor": "Cat Face With Wry Smile"
+		"descriptor": "Cat With Wry Smile"
 	},
 	"1F63D": {
 		"key": "1F63D",
 		"value": "😽",
-		"descriptor": "Kissing Cat Face"
+		"descriptor": "Kissing Cat"
 	},
 	"1F63E": {
 		"key": "1F63E",
 		"value": "😾",
-		"descriptor": "Pouting Cat Face"
+		"descriptor": "Pouting Cat"
 	},
 	"1F63F": {
 		"key": "1F63F",
 		"value": "😿",
-		"descriptor": "Crying Cat Face"
+		"descriptor": "Crying Cat"
 	},
 	"1F640": {
 		"key": "1F640",
 		"value": "🙀",
-		"descriptor": "Weary Cat Face"
+		"descriptor": "Weary Cat"
 	},
 	"1F641": {
 		"key": "1F641",
@@ -9784,6 +10344,11 @@
 		"value": "🛒",
 		"descriptor": "Shopping Cart"
 	},
+	"1F6D5": {
+		"key": "1F6D5",
+		"value": "🛕",
+		"descriptor": "Hindu Temple"
+	},
 	"1F6E0-FE0F": {
 		"key": "1F6E0-FE0F",
 		"value": "🛠️",
@@ -9869,6 +10434,111 @@
 		"value": "🛹",
 		"descriptor": "Skateboard"
 	},
+	"1F6FA": {
+		"key": "1F6FA",
+		"value": "🛺",
+		"descriptor": "Auto Rickshaw"
+	},
+	"1F7E0": {
+		"key": "1F7E0",
+		"value": "🟠",
+		"descriptor": "Orange Circle"
+	},
+	"1F7E1": {
+		"key": "1F7E1",
+		"value": "🟡",
+		"descriptor": "Yellow Circle"
+	},
+	"1F7E2": {
+		"key": "1F7E2",
+		"value": "🟢",
+		"descriptor": "Green Circle"
+	},
+	"1F7E3": {
+		"key": "1F7E3",
+		"value": "🟣",
+		"descriptor": "Purple Circle"
+	},
+	"1F7E4": {
+		"key": "1F7E4",
+		"value": "🟤",
+		"descriptor": "Brown Circle"
+	},
+	"1F7E5": {
+		"key": "1F7E5",
+		"value": "🟥",
+		"descriptor": "Red Square"
+	},
+	"1F7E6": {
+		"key": "1F7E6",
+		"value": "🟦",
+		"descriptor": "Blue Square"
+	},
+	"1F7E7": {
+		"key": "1F7E7",
+		"value": "🟧",
+		"descriptor": "Orange Square"
+	},
+	"1F7E8": {
+		"key": "1F7E8",
+		"value": "🟨",
+		"descriptor": "Yellow Square"
+	},
+	"1F7E9": {
+		"key": "1F7E9",
+		"value": "🟩",
+		"descriptor": "Green Square"
+	},
+	"1F7EA": {
+		"key": "1F7EA",
+		"value": "🟪",
+		"descriptor": "Purple Square"
+	},
+	"1F7EB": {
+		"key": "1F7EB",
+		"value": "🟫",
+		"descriptor": "Brown Square"
+	},
+	"1F90D": {
+		"key": "1F90D",
+		"value": "🤍",
+		"descriptor": "White Heart"
+	},
+	"1F90E": {
+		"key": "1F90E",
+		"value": "🤎",
+		"descriptor": "Brown Heart"
+	},
+	"1F90F": {
+		"key": "1F90F",
+		"value": "🤏",
+		"descriptor": "Pinching Hand"
+	},
+	"1F90F-1F3FB": {
+		"key": "1F90F-1F3FB",
+		"value": "🤏🏻",
+		"descriptor": "Pinching Hand: Light Skin Tone"
+	},
+	"1F90F-1F3FC": {
+		"key": "1F90F-1F3FC",
+		"value": "🤏🏼",
+		"descriptor": "Pinching Hand: Medium-Light Skin Tone"
+	},
+	"1F90F-1F3FD": {
+		"key": "1F90F-1F3FD",
+		"value": "🤏🏽",
+		"descriptor": "Pinching Hand: Medium Skin Tone"
+	},
+	"1F90F-1F3FE": {
+		"key": "1F90F-1F3FE",
+		"value": "🤏🏾",
+		"descriptor": "Pinching Hand: Medium-Dark Skin Tone"
+	},
+	"1F90F-1F3FF": {
+		"key": "1F90F-1F3FF",
+		"value": "🤏🏿",
+		"descriptor": "Pinching Hand: Dark Skin Tone"
+	},
 	"1F910": {
 		"key": "1F910",
 		"value": "🤐",
@@ -9902,7 +10572,7 @@
 	"1F916": {
 		"key": "1F916",
 		"value": "🤖",
-		"descriptor": "Robot Face"
+		"descriptor": "Robot"
 	},
 	"1F917": {
 		"key": "1F917",
@@ -10969,6 +11639,11 @@
 		"value": "🤾‍♂️",
 		"descriptor": "Man Playing Handball"
 	},
+	"1F93F": {
+		"key": "1F93F",
+		"value": "🤿",
+		"descriptor": "Diving Mask"
+	},
 	"1F940": {
 		"key": "1F940",
 		"value": "🥀",
@@ -11209,6 +11884,11 @@
 		"value": "🥰",
 		"descriptor": "Smiling Face With Hearts"
 	},
+	"1F971": {
+		"key": "1F971",
+		"value": "🥱",
+		"descriptor": "Yawning Face"
+	},
 	"1F973": {
 		"key": "1F973",
 		"value": "🥳",
@@ -11233,6 +11913,11 @@
 		"key": "1F97A",
 		"value": "🥺",
 		"descriptor": "Pleading Face"
+	},
+	"1F97B": {
+		"key": "1F97B",
+		"value": "🥻",
+		"descriptor": "Sari"
 	},
 	"1F97C": {
 		"key": "1F97C",
@@ -11262,7 +11947,7 @@
 	"1F981": {
 		"key": "1F981",
 		"value": "🦁",
-		"descriptor": "Lion Face"
+		"descriptor": "Lion"
 	},
 	"1F982": {
 		"key": "1F982",
@@ -11277,7 +11962,7 @@
 	"1F984": {
 		"key": "1F984",
 		"value": "🦄",
-		"descriptor": "Unicorn Face"
+		"descriptor": "Unicorn"
 	},
 	"1F985": {
 		"key": "1F985",
@@ -11307,7 +11992,7 @@
 	"1F98A": {
 		"key": "1F98A",
 		"value": "🦊",
-		"descriptor": "Fox Face"
+		"descriptor": "Fox"
 	},
 	"1F98B": {
 		"key": "1F98B",
@@ -11428,6 +12113,46 @@
 		"key": "1F9A2",
 		"value": "🦢",
 		"descriptor": "Swan"
+	},
+	"1F9A5": {
+		"key": "1F9A5",
+		"value": "🦥",
+		"descriptor": "Sloth"
+	},
+	"1F9A6": {
+		"key": "1F9A6",
+		"value": "🦦",
+		"descriptor": "Otter"
+	},
+	"1F9A7": {
+		"key": "1F9A7",
+		"value": "🦧",
+		"descriptor": "Orangutan"
+	},
+	"1F9A8": {
+		"key": "1F9A8",
+		"value": "🦨",
+		"descriptor": "Skunk"
+	},
+	"1F9A9": {
+		"key": "1F9A9",
+		"value": "🦩",
+		"descriptor": "Flamingo"
+	},
+	"1F9AA": {
+		"key": "1F9AA",
+		"value": "🦪",
+		"descriptor": "Oyster"
+	},
+	"1F9AE": {
+		"key": "1F9AE",
+		"value": "🦮",
+		"descriptor": "Guide Dog"
+	},
+	"1F9AF": {
+		"key": "1F9AF",
+		"value": "🦯",
+		"descriptor": "Probing Cane"
 	},
 	"1F9B0": {
 		"key": "1F9B0",
@@ -11699,6 +12424,61 @@
 		"value": "🦹‍♂️",
 		"descriptor": "Man Supervillain"
 	},
+	"1F9BA": {
+		"key": "1F9BA",
+		"value": "🦺",
+		"descriptor": "Safety Vest"
+	},
+	"1F9BB": {
+		"key": "1F9BB",
+		"value": "🦻",
+		"descriptor": "Ear With Hearing Aid"
+	},
+	"1F9BB-1F3FB": {
+		"key": "1F9BB-1F3FB",
+		"value": "🦻🏻",
+		"descriptor": "Ear With Hearing Aid: Light Skin Tone"
+	},
+	"1F9BB-1F3FC": {
+		"key": "1F9BB-1F3FC",
+		"value": "🦻🏼",
+		"descriptor": "Ear With Hearing Aid: Medium-Light Skin Tone"
+	},
+	"1F9BB-1F3FD": {
+		"key": "1F9BB-1F3FD",
+		"value": "🦻🏽",
+		"descriptor": "Ear With Hearing Aid: Medium Skin Tone"
+	},
+	"1F9BB-1F3FE": {
+		"key": "1F9BB-1F3FE",
+		"value": "🦻🏾",
+		"descriptor": "Ear With Hearing Aid: Medium-Dark Skin Tone"
+	},
+	"1F9BB-1F3FF": {
+		"key": "1F9BB-1F3FF",
+		"value": "🦻🏿",
+		"descriptor": "Ear With Hearing Aid: Dark Skin Tone"
+	},
+	"1F9BC": {
+		"key": "1F9BC",
+		"value": "🦼",
+		"descriptor": "Motorized Wheelchair"
+	},
+	"1F9BD": {
+		"key": "1F9BD",
+		"value": "🦽",
+		"descriptor": "Manual Wheelchair"
+	},
+	"1F9BE": {
+		"key": "1F9BE",
+		"value": "🦾",
+		"descriptor": "Mechanical Arm"
+	},
+	"1F9BF": {
+		"key": "1F9BF",
+		"value": "🦿",
+		"descriptor": "Mechanical Leg"
+	},
 	"1F9C0": {
 		"key": "1F9C0",
 		"value": "🧀",
@@ -11713,6 +12493,316 @@
 		"key": "1F9C2",
 		"value": "🧂",
 		"descriptor": "Salt"
+	},
+	"1F9C3": {
+		"key": "1F9C3",
+		"value": "🧃",
+		"descriptor": "Beverage Box"
+	},
+	"1F9C4": {
+		"key": "1F9C4",
+		"value": "🧄",
+		"descriptor": "Garlic"
+	},
+	"1F9C5": {
+		"key": "1F9C5",
+		"value": "🧅",
+		"descriptor": "Onion"
+	},
+	"1F9C6": {
+		"key": "1F9C6",
+		"value": "🧆",
+		"descriptor": "Falafel"
+	},
+	"1F9C7": {
+		"key": "1F9C7",
+		"value": "🧇",
+		"descriptor": "Waffle"
+	},
+	"1F9C8": {
+		"key": "1F9C8",
+		"value": "🧈",
+		"descriptor": "Butter"
+	},
+	"1F9C9": {
+		"key": "1F9C9",
+		"value": "🧉",
+		"descriptor": "Mate"
+	},
+	"1F9CA": {
+		"key": "1F9CA",
+		"value": "🧊",
+		"descriptor": "Ice"
+	},
+	"1F9CD": {
+		"key": "1F9CD",
+		"value": "🧍",
+		"descriptor": "Person Standing"
+	},
+	"1F9CD-1F3FB": {
+		"key": "1F9CD-1F3FB",
+		"value": "🧍🏻",
+		"descriptor": "Person Standing: Light Skin Tone"
+	},
+	"1F9CD-1F3FB-200D-2640-FE0F": {
+		"key": "1F9CD-1F3FB-200D-2640-FE0F",
+		"value": "🧍🏻‍♀️",
+		"descriptor": "Woman Standing: Light Skin Tone"
+	},
+	"1F9CD-1F3FB-200D-2642-FE0F": {
+		"key": "1F9CD-1F3FB-200D-2642-FE0F",
+		"value": "🧍🏻‍♂️",
+		"descriptor": "Man Standing: Light Skin Tone"
+	},
+	"1F9CD-1F3FC": {
+		"key": "1F9CD-1F3FC",
+		"value": "🧍🏼",
+		"descriptor": "Person Standing: Medium-Light Skin Tone"
+	},
+	"1F9CD-1F3FC-200D-2640-FE0F": {
+		"key": "1F9CD-1F3FC-200D-2640-FE0F",
+		"value": "🧍🏼‍♀️",
+		"descriptor": "Woman Standing: Medium-Light Skin Tone"
+	},
+	"1F9CD-1F3FC-200D-2642-FE0F": {
+		"key": "1F9CD-1F3FC-200D-2642-FE0F",
+		"value": "🧍🏼‍♂️",
+		"descriptor": "Man Standing: Medium-Light Skin Tone"
+	},
+	"1F9CD-1F3FD": {
+		"key": "1F9CD-1F3FD",
+		"value": "🧍🏽",
+		"descriptor": "Person Standing: Medium Skin Tone"
+	},
+	"1F9CD-1F3FD-200D-2640-FE0F": {
+		"key": "1F9CD-1F3FD-200D-2640-FE0F",
+		"value": "🧍🏽‍♀️",
+		"descriptor": "Woman Standing: Medium Skin Tone"
+	},
+	"1F9CD-1F3FD-200D-2642-FE0F": {
+		"key": "1F9CD-1F3FD-200D-2642-FE0F",
+		"value": "🧍🏽‍♂️",
+		"descriptor": "Man Standing: Medium Skin Tone"
+	},
+	"1F9CD-1F3FE": {
+		"key": "1F9CD-1F3FE",
+		"value": "🧍🏾",
+		"descriptor": "Person Standing: Medium-Dark Skin Tone"
+	},
+	"1F9CD-1F3FE-200D-2640-FE0F": {
+		"key": "1F9CD-1F3FE-200D-2640-FE0F",
+		"value": "🧍🏾‍♀️",
+		"descriptor": "Woman Standing: Medium-Dark Skin Tone"
+	},
+	"1F9CD-1F3FE-200D-2642-FE0F": {
+		"key": "1F9CD-1F3FE-200D-2642-FE0F",
+		"value": "🧍🏾‍♂️",
+		"descriptor": "Man Standing: Medium-Dark Skin Tone"
+	},
+	"1F9CD-1F3FF": {
+		"key": "1F9CD-1F3FF",
+		"value": "🧍🏿",
+		"descriptor": "Person Standing: Dark Skin Tone"
+	},
+	"1F9CD-1F3FF-200D-2640-FE0F": {
+		"key": "1F9CD-1F3FF-200D-2640-FE0F",
+		"value": "🧍🏿‍♀️",
+		"descriptor": "Woman Standing: Dark Skin Tone"
+	},
+	"1F9CD-1F3FF-200D-2642-FE0F": {
+		"key": "1F9CD-1F3FF-200D-2642-FE0F",
+		"value": "🧍🏿‍♂️",
+		"descriptor": "Man Standing: Dark Skin Tone"
+	},
+	"1F9CD-200D-2640-FE0F": {
+		"key": "1F9CD-200D-2640-FE0F",
+		"value": "🧍‍♀️",
+		"descriptor": "Woman Standing"
+	},
+	"1F9CD-200D-2642-FE0F": {
+		"key": "1F9CD-200D-2642-FE0F",
+		"value": "🧍‍♂️",
+		"descriptor": "Man Standing"
+	},
+	"1F9CE": {
+		"key": "1F9CE",
+		"value": "🧎",
+		"descriptor": "Person Kneeling"
+	},
+	"1F9CE-1F3FB": {
+		"key": "1F9CE-1F3FB",
+		"value": "🧎🏻",
+		"descriptor": "Person Kneeling: Light Skin Tone"
+	},
+	"1F9CE-1F3FB-200D-2640-FE0F": {
+		"key": "1F9CE-1F3FB-200D-2640-FE0F",
+		"value": "🧎🏻‍♀️",
+		"descriptor": "Woman Kneeling: Light Skin Tone"
+	},
+	"1F9CE-1F3FB-200D-2642-FE0F": {
+		"key": "1F9CE-1F3FB-200D-2642-FE0F",
+		"value": "🧎🏻‍♂️",
+		"descriptor": "Man Kneeling: Light Skin Tone"
+	},
+	"1F9CE-1F3FC": {
+		"key": "1F9CE-1F3FC",
+		"value": "🧎🏼",
+		"descriptor": "Person Kneeling: Medium-Light Skin Tone"
+	},
+	"1F9CE-1F3FC-200D-2640-FE0F": {
+		"key": "1F9CE-1F3FC-200D-2640-FE0F",
+		"value": "🧎🏼‍♀️",
+		"descriptor": "Woman Kneeling: Medium-Light Skin Tone"
+	},
+	"1F9CE-1F3FC-200D-2642-FE0F": {
+		"key": "1F9CE-1F3FC-200D-2642-FE0F",
+		"value": "🧎🏼‍♂️",
+		"descriptor": "Man Kneeling: Medium-Light Skin Tone"
+	},
+	"1F9CE-1F3FD": {
+		"key": "1F9CE-1F3FD",
+		"value": "🧎🏽",
+		"descriptor": "Person Kneeling: Medium Skin Tone"
+	},
+	"1F9CE-1F3FD-200D-2640-FE0F": {
+		"key": "1F9CE-1F3FD-200D-2640-FE0F",
+		"value": "🧎🏽‍♀️",
+		"descriptor": "Woman Kneeling: Medium Skin Tone"
+	},
+	"1F9CE-1F3FD-200D-2642-FE0F": {
+		"key": "1F9CE-1F3FD-200D-2642-FE0F",
+		"value": "🧎🏽‍♂️",
+		"descriptor": "Man Kneeling: Medium Skin Tone"
+	},
+	"1F9CE-1F3FE": {
+		"key": "1F9CE-1F3FE",
+		"value": "🧎🏾",
+		"descriptor": "Person Kneeling: Medium-Dark Skin Tone"
+	},
+	"1F9CE-1F3FE-200D-2640-FE0F": {
+		"key": "1F9CE-1F3FE-200D-2640-FE0F",
+		"value": "🧎🏾‍♀️",
+		"descriptor": "Woman Kneeling: Medium-Dark Skin Tone"
+	},
+	"1F9CE-1F3FE-200D-2642-FE0F": {
+		"key": "1F9CE-1F3FE-200D-2642-FE0F",
+		"value": "🧎🏾‍♂️",
+		"descriptor": "Man Kneeling: Medium-Dark Skin Tone"
+	},
+	"1F9CE-1F3FF": {
+		"key": "1F9CE-1F3FF",
+		"value": "🧎🏿",
+		"descriptor": "Person Kneeling: Dark Skin Tone"
+	},
+	"1F9CE-1F3FF-200D-2640-FE0F": {
+		"key": "1F9CE-1F3FF-200D-2640-FE0F",
+		"value": "🧎🏿‍♀️",
+		"descriptor": "Woman Kneeling: Dark Skin Tone"
+	},
+	"1F9CE-1F3FF-200D-2642-FE0F": {
+		"key": "1F9CE-1F3FF-200D-2642-FE0F",
+		"value": "🧎🏿‍♂️",
+		"descriptor": "Man Kneeling: Dark Skin Tone"
+	},
+	"1F9CE-200D-2640-FE0F": {
+		"key": "1F9CE-200D-2640-FE0F",
+		"value": "🧎‍♀️",
+		"descriptor": "Woman Kneeling"
+	},
+	"1F9CE-200D-2642-FE0F": {
+		"key": "1F9CE-200D-2642-FE0F",
+		"value": "🧎‍♂️",
+		"descriptor": "Man Kneeling"
+	},
+	"1F9CF": {
+		"key": "1F9CF",
+		"value": "🧏",
+		"descriptor": "Deaf Person"
+	},
+	"1F9CF-1F3FB": {
+		"key": "1F9CF-1F3FB",
+		"value": "🧏🏻",
+		"descriptor": "Deaf Person: Light Skin Tone"
+	},
+	"1F9CF-1F3FB-200D-2640-FE0F": {
+		"key": "1F9CF-1F3FB-200D-2640-FE0F",
+		"value": "🧏🏻‍♀️",
+		"descriptor": "Deaf Woman: Light Skin Tone"
+	},
+	"1F9CF-1F3FB-200D-2642-FE0F": {
+		"key": "1F9CF-1F3FB-200D-2642-FE0F",
+		"value": "🧏🏻‍♂️",
+		"descriptor": "Deaf Man: Light Skin Tone"
+	},
+	"1F9CF-1F3FC": {
+		"key": "1F9CF-1F3FC",
+		"value": "🧏🏼",
+		"descriptor": "Deaf Person: Medium-Light Skin Tone"
+	},
+	"1F9CF-1F3FC-200D-2640-FE0F": {
+		"key": "1F9CF-1F3FC-200D-2640-FE0F",
+		"value": "🧏🏼‍♀️",
+		"descriptor": "Deaf Woman: Medium-Light Skin Tone"
+	},
+	"1F9CF-1F3FC-200D-2642-FE0F": {
+		"key": "1F9CF-1F3FC-200D-2642-FE0F",
+		"value": "🧏🏼‍♂️",
+		"descriptor": "Deaf Man: Medium-Light Skin Tone"
+	},
+	"1F9CF-1F3FD": {
+		"key": "1F9CF-1F3FD",
+		"value": "🧏🏽",
+		"descriptor": "Deaf Person: Medium Skin Tone"
+	},
+	"1F9CF-1F3FD-200D-2640-FE0F": {
+		"key": "1F9CF-1F3FD-200D-2640-FE0F",
+		"value": "🧏🏽‍♀️",
+		"descriptor": "Deaf Woman: Medium Skin Tone"
+	},
+	"1F9CF-1F3FD-200D-2642-FE0F": {
+		"key": "1F9CF-1F3FD-200D-2642-FE0F",
+		"value": "🧏🏽‍♂️",
+		"descriptor": "Deaf Man: Medium Skin Tone"
+	},
+	"1F9CF-1F3FE": {
+		"key": "1F9CF-1F3FE",
+		"value": "🧏🏾",
+		"descriptor": "Deaf Person: Medium-Dark Skin Tone"
+	},
+	"1F9CF-1F3FE-200D-2640-FE0F": {
+		"key": "1F9CF-1F3FE-200D-2640-FE0F",
+		"value": "🧏🏾‍♀️",
+		"descriptor": "Deaf Woman: Medium-Dark Skin Tone"
+	},
+	"1F9CF-1F3FE-200D-2642-FE0F": {
+		"key": "1F9CF-1F3FE-200D-2642-FE0F",
+		"value": "🧏🏾‍♂️",
+		"descriptor": "Deaf Man: Medium-Dark Skin Tone"
+	},
+	"1F9CF-1F3FF": {
+		"key": "1F9CF-1F3FF",
+		"value": "🧏🏿",
+		"descriptor": "Deaf Person: Dark Skin Tone"
+	},
+	"1F9CF-1F3FF-200D-2640-FE0F": {
+		"key": "1F9CF-1F3FF-200D-2640-FE0F",
+		"value": "🧏🏿‍♀️",
+		"descriptor": "Deaf Woman: Dark Skin Tone"
+	},
+	"1F9CF-1F3FF-200D-2642-FE0F": {
+		"key": "1F9CF-1F3FF-200D-2642-FE0F",
+		"value": "🧏🏿‍♂️",
+		"descriptor": "Deaf Man: Dark Skin Tone"
+	},
+	"1F9CF-200D-2640-FE0F": {
+		"key": "1F9CF-200D-2640-FE0F",
+		"value": "🧏‍♀️",
+		"descriptor": "Deaf Woman"
+	},
+	"1F9CF-200D-2642-FE0F": {
+		"key": "1F9CF-200D-2642-FE0F",
+		"value": "🧏‍♂️",
+		"descriptor": "Deaf Man"
 	},
 	"1F9D0": {
 		"key": "1F9D0",
@@ -11729,25 +12819,845 @@
 		"value": "🧑🏻",
 		"descriptor": "Person: Light Skin Tone"
 	},
+	"1F9D1-1F3FB-200D-1F33E": {
+		"key": "1F9D1-1F3FB-200D-1F33E",
+		"value": "🧑🏻‍🌾",
+		"descriptor": "Farmer: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F373": {
+		"key": "1F9D1-1F3FB-200D-1F373",
+		"value": "🧑🏻‍🍳",
+		"descriptor": "Cook: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F393": {
+		"key": "1F9D1-1F3FB-200D-1F393",
+		"value": "🧑🏻‍🎓",
+		"descriptor": "Student: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F3A4": {
+		"key": "1F9D1-1F3FB-200D-1F3A4",
+		"value": "🧑🏻‍🎤",
+		"descriptor": "Singer: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F3A8": {
+		"key": "1F9D1-1F3FB-200D-1F3A8",
+		"value": "🧑🏻‍🎨",
+		"descriptor": "Artist: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F3EB": {
+		"key": "1F9D1-1F3FB-200D-1F3EB",
+		"value": "🧑🏻‍🏫",
+		"descriptor": "Teacher: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F3ED": {
+		"key": "1F9D1-1F3FB-200D-1F3ED",
+		"value": "🧑🏻‍🏭",
+		"descriptor": "Factory Worker: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F4BB": {
+		"key": "1F9D1-1F3FB-200D-1F4BB",
+		"value": "🧑🏻‍💻",
+		"descriptor": "Technologist: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F4BC": {
+		"key": "1F9D1-1F3FB-200D-1F4BC",
+		"value": "🧑🏻‍💼",
+		"descriptor": "Office Worker: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F527": {
+		"key": "1F9D1-1F3FB-200D-1F527",
+		"value": "🧑🏻‍🔧",
+		"descriptor": "Mechanic: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F52C": {
+		"key": "1F9D1-1F3FB-200D-1F52C",
+		"value": "🧑🏻‍🔬",
+		"descriptor": "Scientist: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F680": {
+		"key": "1F9D1-1F3FB-200D-1F680",
+		"value": "🧑🏻‍🚀",
+		"descriptor": "Astronaut: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F692": {
+		"key": "1F9D1-1F3FB-200D-1F692",
+		"value": "🧑🏻‍🚒",
+		"descriptor": "Firefighter: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB": {
+		"key": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FB",
+		"value": "🧑🏻‍🤝‍🧑🏻",
+		"descriptor": "People Holding Hands: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC": {
+		"key": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FC",
+		"value": "🧑🏻‍🤝‍🧑🏼",
+		"descriptor": "People Holding Hands: Light Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD": {
+		"key": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FD",
+		"value": "🧑🏻‍🤝‍🧑🏽",
+		"descriptor": "People Holding Hands: Light Skin Tone, Medium Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE": {
+		"key": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FE",
+		"value": "🧑🏻‍🤝‍🧑🏾",
+		"descriptor": "People Holding Hands: Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF": {
+		"key": "1F9D1-1F3FB-200D-1F91D-200D-1F9D1-1F3FF",
+		"value": "🧑🏻‍🤝‍🧑🏿",
+		"descriptor": "People Holding Hands: Light Skin Tone, Dark Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F9AF": {
+		"key": "1F9D1-1F3FB-200D-1F9AF",
+		"value": "🧑🏻‍🦯",
+		"descriptor": "Person With Probing Cane: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F9B0": {
+		"key": "1F9D1-1F3FB-200D-1F9B0",
+		"value": "🧑🏻‍🦰",
+		"descriptor": "Person: Light Skin Tone, Red Hair"
+	},
+	"1F9D1-1F3FB-200D-1F9B1": {
+		"key": "1F9D1-1F3FB-200D-1F9B1",
+		"value": "🧑🏻‍🦱",
+		"descriptor": "Person: Light Skin Tone, Curly Hair"
+	},
+	"1F9D1-1F3FB-200D-1F9B2": {
+		"key": "1F9D1-1F3FB-200D-1F9B2",
+		"value": "🧑🏻‍🦲",
+		"descriptor": "Person: Light Skin Tone, Bald"
+	},
+	"1F9D1-1F3FB-200D-1F9B3": {
+		"key": "1F9D1-1F3FB-200D-1F9B3",
+		"value": "🧑🏻‍🦳",
+		"descriptor": "Person: Light Skin Tone, White Hair"
+	},
+	"1F9D1-1F3FB-200D-1F9BC": {
+		"key": "1F9D1-1F3FB-200D-1F9BC",
+		"value": "🧑🏻‍🦼",
+		"descriptor": "Person in Motorized Wheelchair: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-1F9BD": {
+		"key": "1F9D1-1F3FB-200D-1F9BD",
+		"value": "🧑🏻‍🦽",
+		"descriptor": "Person in Manual Wheelchair: Light Skin Ton"
+	},
+	"1F9D1-1F3FB-200D-2695-FE0F": {
+		"key": "1F9D1-1F3FB-200D-2695-FE0F",
+		"value": "🧑🏻‍⚕️",
+		"descriptor": "Health Worker: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-2696-FE0F": {
+		"key": "1F9D1-1F3FB-200D-2696-FE0F",
+		"value": "🧑🏻‍⚖️",
+		"descriptor": "Judge: Light Skin Tone"
+	},
+	"1F9D1-1F3FB-200D-2708-FE0F": {
+		"key": "1F9D1-1F3FB-200D-2708-FE0F",
+		"value": "🧑🏻‍✈️",
+		"descriptor": "Pilot: Light Skin Tone"
+	},
 	"1F9D1-1F3FC": {
 		"key": "1F9D1-1F3FC",
 		"value": "🧑🏼",
 		"descriptor": "Person: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F33E": {
+		"key": "1F9D1-1F3FC-200D-1F33E",
+		"value": "🧑🏼‍🌾",
+		"descriptor": "Farmer: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F373": {
+		"key": "1F9D1-1F3FC-200D-1F373",
+		"value": "🧑🏼‍🍳",
+		"descriptor": "Cook: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F393": {
+		"key": "1F9D1-1F3FC-200D-1F393",
+		"value": "🧑🏼‍🎓",
+		"descriptor": "Student: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F3A4": {
+		"key": "1F9D1-1F3FC-200D-1F3A4",
+		"value": "🧑🏼‍🎤",
+		"descriptor": "Singer: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F3A8": {
+		"key": "1F9D1-1F3FC-200D-1F3A8",
+		"value": "🧑🏼‍🎨",
+		"descriptor": "Artist: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F3EB": {
+		"key": "1F9D1-1F3FC-200D-1F3EB",
+		"value": "🧑🏼‍🏫",
+		"descriptor": "Teacher: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F3ED": {
+		"key": "1F9D1-1F3FC-200D-1F3ED",
+		"value": "🧑🏼‍🏭",
+		"descriptor": "Factory Worker: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F4BB": {
+		"key": "1F9D1-1F3FC-200D-1F4BB",
+		"value": "🧑🏼‍💻",
+		"descriptor": "Technologist: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F4BC": {
+		"key": "1F9D1-1F3FC-200D-1F4BC",
+		"value": "🧑🏼‍💼",
+		"descriptor": "Office Worker: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F527": {
+		"key": "1F9D1-1F3FC-200D-1F527",
+		"value": "🧑🏼‍🔧",
+		"descriptor": "Mechanic: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F52C": {
+		"key": "1F9D1-1F3FC-200D-1F52C",
+		"value": "🧑🏼‍🔬",
+		"descriptor": "Scientist: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F680": {
+		"key": "1F9D1-1F3FC-200D-1F680",
+		"value": "🧑🏼‍🚀",
+		"descriptor": "Astronaut: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F692": {
+		"key": "1F9D1-1F3FC-200D-1F692",
+		"value": "🧑🏼‍🚒",
+		"descriptor": "Firefighter: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB": {
+		"key": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FB",
+		"value": "🧑🏼‍🤝‍🧑🏻",
+		"descriptor": "People Holding Hands: Medium-Light Skin Tone, Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC": {
+		"key": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FC",
+		"value": "🧑🏼‍🤝‍🧑🏼",
+		"descriptor": "People Holding Hands: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD": {
+		"key": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FD",
+		"value": "🧑🏼‍🤝‍🧑🏽",
+		"descriptor": "People Holding Hands: Medium-Light Skin Tone, Medium Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE": {
+		"key": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FE",
+		"value": "🧑🏼‍🤝‍🧑🏾",
+		"descriptor": "People Holding Hands: Medium-Light Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF": {
+		"key": "1F9D1-1F3FC-200D-1F91D-200D-1F9D1-1F3FF",
+		"value": "🧑🏼‍🤝‍🧑🏿",
+		"descriptor": "People Holding Hands: Medium-Light Skin Tone, Dark Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F9AF": {
+		"key": "1F9D1-1F3FC-200D-1F9AF",
+		"value": "🧑🏼‍🦯",
+		"descriptor": "Person With Probing Cane: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F9B0": {
+		"key": "1F9D1-1F3FC-200D-1F9B0",
+		"value": "🧑🏼‍🦰",
+		"descriptor": "Person: Medium-Light Skin Tone, Red Hair"
+	},
+	"1F9D1-1F3FC-200D-1F9B1": {
+		"key": "1F9D1-1F3FC-200D-1F9B1",
+		"value": "🧑🏼‍🦱",
+		"descriptor": "Person: Medium-Light Skin Tone, Curly Hair"
+	},
+	"1F9D1-1F3FC-200D-1F9B2": {
+		"key": "1F9D1-1F3FC-200D-1F9B2",
+		"value": "🧑🏼‍🦲",
+		"descriptor": "Person: Medium-Light Skin Tone, Bald"
+	},
+	"1F9D1-1F3FC-200D-1F9B3": {
+		"key": "1F9D1-1F3FC-200D-1F9B3",
+		"value": "🧑🏼‍🦳",
+		"descriptor": "Person: Medium-Light Skin Tone, White Hair"
+	},
+	"1F9D1-1F3FC-200D-1F9BC": {
+		"key": "1F9D1-1F3FC-200D-1F9BC",
+		"value": "🧑🏼‍🦼",
+		"descriptor": "Person in Motorized Wheelchair: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-1F9BD": {
+		"key": "1F9D1-1F3FC-200D-1F9BD",
+		"value": "🧑🏼‍🦽",
+		"descriptor": "Person in Manual Wheelchair: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-2695-FE0F": {
+		"key": "1F9D1-1F3FC-200D-2695-FE0F",
+		"value": "🧑🏼‍⚕️",
+		"descriptor": "Health Worker: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-2696-FE0F": {
+		"key": "1F9D1-1F3FC-200D-2696-FE0F",
+		"value": "🧑🏼‍⚖️",
+		"descriptor": "Judge: Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FC-200D-2708-FE0F": {
+		"key": "1F9D1-1F3FC-200D-2708-FE0F",
+		"value": "🧑🏼‍✈️",
+		"descriptor": "Pilot: Medium-Light Skin Tone"
 	},
 	"1F9D1-1F3FD": {
 		"key": "1F9D1-1F3FD",
 		"value": "🧑🏽",
 		"descriptor": "Person: Medium Skin Tone"
 	},
+	"1F9D1-1F3FD-200D-1F33E": {
+		"key": "1F9D1-1F3FD-200D-1F33E",
+		"value": "🧑🏽‍🌾",
+		"descriptor": "Farmer: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F373": {
+		"key": "1F9D1-1F3FD-200D-1F373",
+		"value": "🧑🏽‍🍳",
+		"descriptor": "Cook: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F393": {
+		"key": "1F9D1-1F3FD-200D-1F393",
+		"value": "🧑🏽‍🎓",
+		"descriptor": "Student: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F3A4": {
+		"key": "1F9D1-1F3FD-200D-1F3A4",
+		"value": "🧑🏽‍🎤",
+		"descriptor": "Singer: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F3A8": {
+		"key": "1F9D1-1F3FD-200D-1F3A8",
+		"value": "🧑🏽‍🎨",
+		"descriptor": "Artist: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F3EB": {
+		"key": "1F9D1-1F3FD-200D-1F3EB",
+		"value": "🧑🏽‍🏫",
+		"descriptor": "Teacher: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F3ED": {
+		"key": "1F9D1-1F3FD-200D-1F3ED",
+		"value": "🧑🏽‍🏭",
+		"descriptor": "Factory Worker: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F4BB": {
+		"key": "1F9D1-1F3FD-200D-1F4BB",
+		"value": "🧑🏽‍💻",
+		"descriptor": "Technologist: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F4BC": {
+		"key": "1F9D1-1F3FD-200D-1F4BC",
+		"value": "🧑🏽‍💼",
+		"descriptor": "Office Worker: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F527": {
+		"key": "1F9D1-1F3FD-200D-1F527",
+		"value": "🧑🏽‍🔧",
+		"descriptor": "Mechanic: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F52C": {
+		"key": "1F9D1-1F3FD-200D-1F52C",
+		"value": "🧑🏽‍🔬",
+		"descriptor": "Scientist: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F680": {
+		"key": "1F9D1-1F3FD-200D-1F680",
+		"value": "🧑🏽‍🚀",
+		"descriptor": "Astronaut: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F692": {
+		"key": "1F9D1-1F3FD-200D-1F692",
+		"value": "🧑🏽‍🚒",
+		"descriptor": "Firefighter: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB": {
+		"key": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FB",
+		"value": "🧑🏽‍🤝‍🧑🏻",
+		"descriptor": "People Holding Hands: Medium Skin Tone, Light Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC": {
+		"key": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FC",
+		"value": "🧑🏽‍🤝‍🧑🏼",
+		"descriptor": "People Holding Hands: Medium Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD": {
+		"key": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FD",
+		"value": "🧑🏽‍🤝‍🧑🏽",
+		"descriptor": "People Holding Hands: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE": {
+		"key": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FE",
+		"value": "🧑🏽‍🤝‍🧑🏾",
+		"descriptor": "People Holding Hands: Medium Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF": {
+		"key": "1F9D1-1F3FD-200D-1F91D-200D-1F9D1-1F3FF",
+		"value": "🧑🏽‍🤝‍🧑🏿",
+		"descriptor": "People Holding Hands: Medium Skin Tone, Dark Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F9AF": {
+		"key": "1F9D1-1F3FD-200D-1F9AF",
+		"value": "🧑🏽‍🦯",
+		"descriptor": "Person With Probing Cane: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F9B0": {
+		"key": "1F9D1-1F3FD-200D-1F9B0",
+		"value": "🧑🏽‍🦰",
+		"descriptor": "Person: Medium Skin Tone, Red Hair"
+	},
+	"1F9D1-1F3FD-200D-1F9B1": {
+		"key": "1F9D1-1F3FD-200D-1F9B1",
+		"value": "🧑🏽‍🦱",
+		"descriptor": "Person: Medium Skin Tone, Curly Hair"
+	},
+	"1F9D1-1F3FD-200D-1F9B2": {
+		"key": "1F9D1-1F3FD-200D-1F9B2",
+		"value": "🧑🏽‍🦲",
+		"descriptor": "Person: Medium Skin Tone, Bald"
+	},
+	"1F9D1-1F3FD-200D-1F9B3": {
+		"key": "1F9D1-1F3FD-200D-1F9B3",
+		"value": "🧑🏽‍🦳",
+		"descriptor": "Person: Medium Skin Tone, White Hair"
+	},
+	"1F9D1-1F3FD-200D-1F9BC": {
+		"key": "1F9D1-1F3FD-200D-1F9BC",
+		"value": "🧑🏽‍🦼",
+		"descriptor": "Person in Motorized Wheelchair: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-1F9BD": {
+		"key": "1F9D1-1F3FD-200D-1F9BD",
+		"value": "🧑🏽‍🦽",
+		"descriptor": "Person in Manual Wheelchair: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-2695-FE0F": {
+		"key": "1F9D1-1F3FD-200D-2695-FE0F",
+		"value": "🧑🏽‍⚕️",
+		"descriptor": "Health Worker: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-2696-FE0F": {
+		"key": "1F9D1-1F3FD-200D-2696-FE0F",
+		"value": "🧑🏽‍⚖️",
+		"descriptor": "Judge: Medium Skin Tone"
+	},
+	"1F9D1-1F3FD-200D-2708-FE0F": {
+		"key": "1F9D1-1F3FD-200D-2708-FE0F",
+		"value": "🧑🏽‍✈️",
+		"descriptor": "Pilot: Medium Skin Tone"
+	},
 	"1F9D1-1F3FE": {
 		"key": "1F9D1-1F3FE",
 		"value": "🧑🏾",
 		"descriptor": "Person: Medium-Dark Skin Tone"
 	},
+	"1F9D1-1F3FE-200D-1F33E": {
+		"key": "1F9D1-1F3FE-200D-1F33E",
+		"value": "🧑🏾‍🌾",
+		"descriptor": "Farmer: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F373": {
+		"key": "1F9D1-1F3FE-200D-1F373",
+		"value": "🧑🏾‍🍳",
+		"descriptor": "Cook: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F393": {
+		"key": "1F9D1-1F3FE-200D-1F393",
+		"value": "🧑🏾‍🎓",
+		"descriptor": "Student: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F3A4": {
+		"key": "1F9D1-1F3FE-200D-1F3A4",
+		"value": "🧑🏾‍🎤",
+		"descriptor": "Singer: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F3A8": {
+		"key": "1F9D1-1F3FE-200D-1F3A8",
+		"value": "🧑🏾‍🎨",
+		"descriptor": "Artist: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F3EB": {
+		"key": "1F9D1-1F3FE-200D-1F3EB",
+		"value": "🧑🏾‍🏫",
+		"descriptor": "Teacher: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F3ED": {
+		"key": "1F9D1-1F3FE-200D-1F3ED",
+		"value": "🧑🏾‍🏭",
+		"descriptor": "Factory Worker: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F4BB": {
+		"key": "1F9D1-1F3FE-200D-1F4BB",
+		"value": "🧑🏾‍💻",
+		"descriptor": "Technologist: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F4BC": {
+		"key": "1F9D1-1F3FE-200D-1F4BC",
+		"value": "🧑🏾‍💼",
+		"descriptor": "Office Worker: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F527": {
+		"key": "1F9D1-1F3FE-200D-1F527",
+		"value": "🧑🏾‍🔧",
+		"descriptor": "Mechanic: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F52C": {
+		"key": "1F9D1-1F3FE-200D-1F52C",
+		"value": "🧑🏾‍🔬",
+		"descriptor": "Scientist: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F680": {
+		"key": "1F9D1-1F3FE-200D-1F680",
+		"value": "🧑🏾‍🚀",
+		"descriptor": "Astronaut: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F692": {
+		"key": "1F9D1-1F3FE-200D-1F692",
+		"value": "🧑🏾‍🚒",
+		"descriptor": "Firefighter: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB": {
+		"key": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FB",
+		"value": "🧑🏾‍🤝‍🧑🏻",
+		"descriptor": "People Holding Hands: Medium-Dark Skin Tone, Light Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC": {
+		"key": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FC",
+		"value": "🧑🏾‍🤝‍🧑🏼",
+		"descriptor": "People Holding Hands: Medium-Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD": {
+		"key": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FD",
+		"value": "🧑🏾‍🤝‍🧑🏽",
+		"descriptor": "People Holding Hands: Medium-Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE": {
+		"key": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FE",
+		"value": "🧑🏾‍🤝‍🧑🏾",
+		"descriptor": "People Holding Hands: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF": {
+		"key": "1F9D1-1F3FE-200D-1F91D-200D-1F9D1-1F3FF",
+		"value": "🧑🏾‍🤝‍🧑🏿",
+		"descriptor": "People Holding Hands: Medium-Dark Skin Tone, Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F9AF": {
+		"key": "1F9D1-1F3FE-200D-1F9AF",
+		"value": "🧑🏾‍🦯",
+		"descriptor": "Person With Probing Cane: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F9B0": {
+		"key": "1F9D1-1F3FE-200D-1F9B0",
+		"value": "🧑🏾‍🦰",
+		"descriptor": "Person: Medium-Dark Skin Tone, Red Hair"
+	},
+	"1F9D1-1F3FE-200D-1F9B1": {
+		"key": "1F9D1-1F3FE-200D-1F9B1",
+		"value": "🧑🏾‍🦱",
+		"descriptor": "Person: Medium-Dark Skin Tone, Curly Hair"
+	},
+	"1F9D1-1F3FE-200D-1F9B2": {
+		"key": "1F9D1-1F3FE-200D-1F9B2",
+		"value": "🧑🏾‍🦲",
+		"descriptor": "Person: Medium-Dark Skin Tone, Bald"
+	},
+	"1F9D1-1F3FE-200D-1F9B3": {
+		"key": "1F9D1-1F3FE-200D-1F9B3",
+		"value": "🧑🏾‍🦳",
+		"descriptor": "Person: Medium-Dark Skin Tone, White Hair"
+	},
+	"1F9D1-1F3FE-200D-1F9BC": {
+		"key": "1F9D1-1F3FE-200D-1F9BC",
+		"value": "🧑🏾‍🦼",
+		"descriptor": "Person in Motorized Wheelchair: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-1F9BD": {
+		"key": "1F9D1-1F3FE-200D-1F9BD",
+		"value": "🧑🏾‍🦽",
+		"descriptor": "Person in Manual Wheelchair: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-2695-FE0F": {
+		"key": "1F9D1-1F3FE-200D-2695-FE0F",
+		"value": "🧑🏾‍⚕️",
+		"descriptor": "Health Worker: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-2696-FE0F": {
+		"key": "1F9D1-1F3FE-200D-2696-FE0F",
+		"value": "🧑🏾‍⚖️",
+		"descriptor": "Judge: Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FE-200D-2708-FE0F": {
+		"key": "1F9D1-1F3FE-200D-2708-FE0F",
+		"value": "🧑🏾‍✈️",
+		"descriptor": "Pilot: Medium-Dark Skin Tone"
+	},
 	"1F9D1-1F3FF": {
 		"key": "1F9D1-1F3FF",
 		"value": "🧑🏿",
 		"descriptor": "Person: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F33E": {
+		"key": "1F9D1-1F3FF-200D-1F33E",
+		"value": "🧑🏿‍🌾",
+		"descriptor": "Farmer: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F373": {
+		"key": "1F9D1-1F3FF-200D-1F373",
+		"value": "🧑🏿‍🍳",
+		"descriptor": "Cook: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F393": {
+		"key": "1F9D1-1F3FF-200D-1F393",
+		"value": "🧑🏿‍🎓",
+		"descriptor": "Student: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F3A4": {
+		"key": "1F9D1-1F3FF-200D-1F3A4",
+		"value": "🧑🏿‍🎤",
+		"descriptor": "Singer: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F3A8": {
+		"key": "1F9D1-1F3FF-200D-1F3A8",
+		"value": "🧑🏿‍🎨",
+		"descriptor": "Artist: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F3EB": {
+		"key": "1F9D1-1F3FF-200D-1F3EB",
+		"value": "🧑🏿‍🏫",
+		"descriptor": "Teacher: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F3ED": {
+		"key": "1F9D1-1F3FF-200D-1F3ED",
+		"value": "🧑🏿‍🏭",
+		"descriptor": "Factory Worker: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F4BB": {
+		"key": "1F9D1-1F3FF-200D-1F4BB",
+		"value": "🧑🏿‍💻",
+		"descriptor": "Technologist: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F4BC": {
+		"key": "1F9D1-1F3FF-200D-1F4BC",
+		"value": "🧑🏿‍💼",
+		"descriptor": "Office Worker: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F527": {
+		"key": "1F9D1-1F3FF-200D-1F527",
+		"value": "🧑🏿‍🔧",
+		"descriptor": "Mechanic: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F52C": {
+		"key": "1F9D1-1F3FF-200D-1F52C",
+		"value": "🧑🏿‍🔬",
+		"descriptor": "Scientist: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F680": {
+		"key": "1F9D1-1F3FF-200D-1F680",
+		"value": "🧑🏿‍🚀",
+		"descriptor": "Astronaut: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F692": {
+		"key": "1F9D1-1F3FF-200D-1F692",
+		"value": "🧑🏿‍🚒",
+		"descriptor": "Firefighter: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB": {
+		"key": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FB",
+		"value": "🧑🏿‍🤝‍🧑🏻",
+		"descriptor": "People Holding Hands: Dark Skin Tone, Light Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC": {
+		"key": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FC",
+		"value": "🧑🏿‍🤝‍🧑🏼",
+		"descriptor": "People Holding Hands: Dark Skin Tone, Medium-Light Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD": {
+		"key": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FD",
+		"value": "🧑🏿‍🤝‍🧑🏽",
+		"descriptor": "People Holding Hands: Dark Skin Tone, Medium Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE": {
+		"key": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FE",
+		"value": "🧑🏿‍🤝‍🧑🏾",
+		"descriptor": "People Holding Hands: Dark Skin Tone, Medium-Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF": {
+		"key": "1F9D1-1F3FF-200D-1F91D-200D-1F9D1-1F3FF",
+		"value": "🧑🏿‍🤝‍🧑🏿",
+		"descriptor": "People Holding Hands: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F9AF": {
+		"key": "1F9D1-1F3FF-200D-1F9AF",
+		"value": "🧑🏿‍🦯",
+		"descriptor": "Person With Probing Cane: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F9B0": {
+		"key": "1F9D1-1F3FF-200D-1F9B0",
+		"value": "🧑🏿‍🦰",
+		"descriptor": "Person: Dark Skin Tone, Red Hair"
+	},
+	"1F9D1-1F3FF-200D-1F9B1": {
+		"key": "1F9D1-1F3FF-200D-1F9B1",
+		"value": "🧑🏿‍🦱",
+		"descriptor": "Person: Dark Skin Tone, Curly Hair"
+	},
+	"1F9D1-1F3FF-200D-1F9B2": {
+		"key": "1F9D1-1F3FF-200D-1F9B2",
+		"value": "🧑🏿‍🦲",
+		"descriptor": "Person: Dark Skin Tone, Bald"
+	},
+	"1F9D1-1F3FF-200D-1F9B3": {
+		"key": "1F9D1-1F3FF-200D-1F9B3",
+		"value": "🧑🏿‍🦳",
+		"descriptor": "Person: Dark Skin Tone, White Hair"
+	},
+	"1F9D1-1F3FF-200D-1F9BC": {
+		"key": "1F9D1-1F3FF-200D-1F9BC",
+		"value": "🧑🏿‍🦼",
+		"descriptor": "Person in Motorized Wheelchair: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-1F9BD": {
+		"key": "1F9D1-1F3FF-200D-1F9BD",
+		"value": "🧑🏿‍🦽",
+		"descriptor": "Person in Manual Wheelchair: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-2695-FE0F": {
+		"key": "1F9D1-1F3FF-200D-2695-FE0F",
+		"value": "🧑🏿‍⚕️",
+		"descriptor": "Health Worker: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-2696-FE0F": {
+		"key": "1F9D1-1F3FF-200D-2696-FE0F",
+		"value": "🧑🏿‍⚖️",
+		"descriptor": "Judge: Dark Skin Tone"
+	},
+	"1F9D1-1F3FF-200D-2708-FE0F": {
+		"key": "1F9D1-1F3FF-200D-2708-FE0F",
+		"value": "🧑🏿‍✈️",
+		"descriptor": "Pilot: Dark Skin Tone"
+	},
+	"1F9D1-200D-1F33E": {
+		"key": "1F9D1-200D-1F33E",
+		"value": "🧑‍🌾",
+		"descriptor": "Farmer"
+	},
+	"1F9D1-200D-1F373": {
+		"key": "1F9D1-200D-1F373",
+		"value": "🧑‍🍳",
+		"descriptor": "Cook"
+	},
+	"1F9D1-200D-1F393": {
+		"key": "1F9D1-200D-1F393",
+		"value": "🧑‍🎓",
+		"descriptor": "Student"
+	},
+	"1F9D1-200D-1F3A4": {
+		"key": "1F9D1-200D-1F3A4",
+		"value": "🧑‍🎤",
+		"descriptor": "Singer"
+	},
+	"1F9D1-200D-1F3A8": {
+		"key": "1F9D1-200D-1F3A8",
+		"value": "🧑‍🎨",
+		"descriptor": "Artist"
+	},
+	"1F9D1-200D-1F3EB": {
+		"key": "1F9D1-200D-1F3EB",
+		"value": "🧑‍🏫",
+		"descriptor": "Teacher"
+	},
+	"1F9D1-200D-1F3ED": {
+		"key": "1F9D1-200D-1F3ED",
+		"value": "🧑‍🏭",
+		"descriptor": "Factory Worker"
+	},
+	"1F9D1-200D-1F4BB": {
+		"key": "1F9D1-200D-1F4BB",
+		"value": "🧑‍💻",
+		"descriptor": "Technologist"
+	},
+	"1F9D1-200D-1F4BC": {
+		"key": "1F9D1-200D-1F4BC",
+		"value": "🧑‍💼",
+		"descriptor": "Office Worker"
+	},
+	"1F9D1-200D-1F527": {
+		"key": "1F9D1-200D-1F527",
+		"value": "🧑‍🔧",
+		"descriptor": "Mechanic"
+	},
+	"1F9D1-200D-1F52C": {
+		"key": "1F9D1-200D-1F52C",
+		"value": "🧑‍🔬",
+		"descriptor": "Scientist"
+	},
+	"1F9D1-200D-1F680": {
+		"key": "1F9D1-200D-1F680",
+		"value": "🧑‍🚀",
+		"descriptor": "Astronaut"
+	},
+	"1F9D1-200D-1F692": {
+		"key": "1F9D1-200D-1F692",
+		"value": "🧑‍🚒",
+		"descriptor": "Firefighter"
+	},
+	"1F9D1-200D-1F91D-200D-1F9D1": {
+		"key": "1F9D1-200D-1F91D-200D-1F9D1",
+		"value": "🧑‍🤝‍🧑",
+		"descriptor": "People Holding Hands"
+	},
+	"1F9D1-200D-1F9AF": {
+		"key": "1F9D1-200D-1F9AF",
+		"value": "🧑‍🦯",
+		"descriptor": "Person With Probing Cane"
+	},
+	"1F9D1-200D-1F9B0": {
+		"key": "1F9D1-200D-1F9B0",
+		"value": "🧑‍🦰",
+		"descriptor": "Person: Red Hair"
+	},
+	"1F9D1-200D-1F9B1": {
+		"key": "1F9D1-200D-1F9B1",
+		"value": "🧑‍🦱",
+		"descriptor": "Person: Curly Hair"
+	},
+	"1F9D1-200D-1F9B2": {
+		"key": "1F9D1-200D-1F9B2",
+		"value": "🧑‍🦲",
+		"descriptor": "Person: Bald"
+	},
+	"1F9D1-200D-1F9B3": {
+		"key": "1F9D1-200D-1F9B3",
+		"value": "🧑‍🦳",
+		"descriptor": "Person: White Hair"
+	},
+	"1F9D1-200D-1F9BC": {
+		"key": "1F9D1-200D-1F9BC",
+		"value": "🧑‍🦼",
+		"descriptor": "Person in Motorized Wheelchair"
+	},
+	"1F9D1-200D-1F9BD": {
+		"key": "1F9D1-200D-1F9BD",
+		"value": "🧑‍🦽",
+		"descriptor": "Person in Manual Wheelchair"
+	},
+	"1F9D1-200D-2695-FE0F": {
+		"key": "1F9D1-200D-2695-FE0F",
+		"value": "🧑‍⚕️",
+		"descriptor": "Health Worker"
+	},
+	"1F9D1-200D-2696-FE0F": {
+		"key": "1F9D1-200D-2696-FE0F",
+		"value": "🧑‍⚖️",
+		"descriptor": "Judge"
+	},
+	"1F9D1-200D-2708-FE0F": {
+		"key": "1F9D1-200D-2708-FE0F",
+		"value": "🧑‍✈️",
+		"descriptor": "Pilot"
 	},
 	"1F9D2": {
 		"key": "1F9D2",
@@ -12667,7 +14577,7 @@
 	"1F9E9": {
 		"key": "1F9E9",
 		"value": "🧩",
-		"descriptor": "Jigsaw"
+		"descriptor": "Puzzle Piece"
 	},
 	"1F9EA": {
 		"key": "1F9EA",
@@ -12778,6 +14688,86 @@
 		"key": "1F9FF",
 		"value": "🧿",
 		"descriptor": "Nazar Amulet"
+	},
+	"1FA70": {
+		"key": "1FA70",
+		"value": "🩰",
+		"descriptor": "Ballet Shoes"
+	},
+	"1FA71": {
+		"key": "1FA71",
+		"value": "🩱",
+		"descriptor": "One-Piece Swimsuit"
+	},
+	"1FA72": {
+		"key": "1FA72",
+		"value": "🩲",
+		"descriptor": "Briefs"
+	},
+	"1FA73": {
+		"key": "1FA73",
+		"value": "🩳",
+		"descriptor": "Shorts"
+	},
+	"1FA78": {
+		"key": "1FA78",
+		"value": "🩸",
+		"descriptor": "Drop of Blood"
+	},
+	"1FA79": {
+		"key": "1FA79",
+		"value": "🩹",
+		"descriptor": "Adhesive Bandage"
+	},
+	"1FA7A": {
+		"key": "1FA7A",
+		"value": "🩺",
+		"descriptor": "Stethoscope"
+	},
+	"1FA80": {
+		"key": "1FA80",
+		"value": "🪀",
+		"descriptor": "Yo-Yo"
+	},
+	"1FA81": {
+		"key": "1FA81",
+		"value": "🪁",
+		"descriptor": "Kite"
+	},
+	"1FA82": {
+		"key": "1FA82",
+		"value": "🪂",
+		"descriptor": "Parachute"
+	},
+	"1FA90": {
+		"key": "1FA90",
+		"value": "🪐",
+		"descriptor": "Ringed Planet"
+	},
+	"1FA91": {
+		"key": "1FA91",
+		"value": "🪑",
+		"descriptor": "Chair"
+	},
+	"1FA92": {
+		"key": "1FA92",
+		"value": "🪒",
+		"descriptor": "Razor"
+	},
+	"1FA93": {
+		"key": "1FA93",
+		"value": "🪓",
+		"descriptor": "Axe"
+	},
+	"1FA94": {
+		"key": "1FA94",
+		"value": "🪔",
+		"descriptor": "Diya Lamp"
+	},
+	"1FA95": {
+		"key": "1FA95",
+		"value": "🪕",
+		"descriptor": "Banjo"
 	},
 	"203C-FE0F": {
 		"key": "203C-FE0F",
@@ -13012,7 +15002,7 @@
 	"2611-FE0F": {
 		"key": "2611-FE0F",
 		"value": "☑️",
-		"descriptor": "Ballot Box With Check"
+		"descriptor": "Check Box With Check"
 	},
 	"2614": {
 		"key": "2614",
@@ -13492,7 +15482,7 @@
 	"2705": {
 		"key": "2705",
 		"value": "✅",
-		"descriptor": "White Heavy Check Mark"
+		"descriptor": "Check Mark Button"
 	},
 	"2708-FE0F": {
 		"key": "2708-FE0F",
@@ -13637,12 +15627,12 @@
 	"2714-FE0F": {
 		"key": "2714-FE0F",
 		"value": "✔️",
-		"descriptor": "Heavy Check Mark"
+		"descriptor": "Check Mark"
 	},
 	"2716-FE0F": {
 		"key": "2716-FE0F",
 		"value": "✖️",
-		"descriptor": "Heavy Multiplication X"
+		"descriptor": "Multiplication Sign"
 	},
 	"271D-FE0F": {
 		"key": "271D-FE0F",
@@ -13712,7 +15702,7 @@
 	"2763-FE0F": {
 		"key": "2763-FE0F",
 		"value": "❣️",
-		"descriptor": "Heavy Heart Exclamation"
+		"descriptor": "Heart Exclamation"
 	},
 	"2764-FE0F": {
 		"key": "2764-FE0F",
@@ -13722,17 +15712,17 @@
 	"2795": {
 		"key": "2795",
 		"value": "➕",
-		"descriptor": "Heavy Plus Sign"
+		"descriptor": "Plus Sign"
 	},
 	"2796": {
 		"key": "2796",
 		"value": "➖",
-		"descriptor": "Heavy Minus Sign"
+		"descriptor": "Minus Sign"
 	},
 	"2797": {
 		"key": "2797",
 		"value": "➗",
-		"descriptor": "Heavy Division Sign"
+		"descriptor": "Division Sign"
 	},
 	"27A1-FE0F": {
 		"key": "27A1-FE0F",
@@ -13797,7 +15787,7 @@
 	"2B55": {
 		"key": "2B55",
 		"value": "⭕",
-		"descriptor": "Heavy Large Circle"
+		"descriptor": "Hollow Red Circle"
 	},
 	"30-FE0F-20E3": {
 		"key": "30-FE0F-20E3",
@@ -13878,5 +15868,10 @@
 		"key": "AE-FE0F",
 		"value": "®️",
 		"descriptor": "Registered"
+	},
+	"FE0F": {
+		"key": "FE0F",
+		"value": "️",
+		"descriptor": "Variation Selector-16"
 	}
 }
