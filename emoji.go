@@ -19,9 +19,6 @@ type Emoji struct {
 	Descriptor string `json:"descriptor"`
 }
 
-// Emojis - Map of Emoji Runes as Hex keys to their description
-// var Emojis map[string]Emoji
-
 // Unmarshal the emoji JSON into the Emojis map
 func init() {
 	// Work out where we are in relation to the caller
