@@ -38,7 +38,7 @@ func init() {
 
 	byteValue, e := ioutil.ReadAll(jsonFile)
 	if e != nil {
-		if len(Emojis) > 0 { // Use build-in emojis data
+		if len(Emojis) > 0 { // Use build-in emojis data (from emojidata.go)
 			return
 		}
 		panic(e)
