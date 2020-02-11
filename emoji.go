@@ -19,9 +19,6 @@ type Emoji struct {
 	Descriptor string `json:"descriptor"`
 }
 
-// Emojis - Map of Emoji Runes as Hex keys to their description
-var Emojis map[string]Emoji
-
 // Unmarshal the emoji JSON into the Emojis map
 func init() {
 	// Work out where we are in relation to the caller
@@ -32,17 +29,25 @@ func init() {
 
 	// Open the Emoji definition JSON and Unmarshal into map
 	jsonFile, err := os.Open(path.Dir(filename) + "/data/emoji.json")
-	defer jsonFile.Close()
-	if err != nil {
+	if jsonFile != nil {
+		defer jsonFile.Close()
+	}
+	if err != nil && len(Emojis) < 1 {
 		fmt.Println(err)
 	}
 
 	byteValue, e := ioutil.ReadAll(jsonFile)
 	if e != nil {
+		if len(Emojis) > 0 { // Use build-in emojis data (from emojidata.go)
+			return
+		}
 		panic(e)
 	}
 
-	json.Unmarshal(byteValue, &Emojis)
+	err = json.Unmarshal(byteValue, &Emojis)
+	if err != nil {
+		panic(e)
+	}
 }
 
 // LookupEmoji - Lookup a single emoji definition
