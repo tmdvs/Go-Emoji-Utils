@@ -1,4 +1,4 @@
-![Go-Emoji-Utils](http://up.tmdvs.me/52074bebc945/d)
+![Go-Emoji-Utils](https://share.zight.com/52074bebc945/d)
 
 # Go Emoji Utils
 A collection of useful functions for working with emoji. For example: look up the definition of a specific emoji, or search for all occurrences of emojis in a string.
