@@ -31,6 +31,9 @@ func TestRemoveAllEmoji(t *testing.T) {
 	totalUniqueEmoji := len(matches)
 
 	assert.Equal(t, totalUniqueEmoji, 6, "There should be six different emoji, found: %v", matches)
+	assert.Equal(t, matches[0].Match.Value, "😄", "The first emoji should be 😄")
+	assert.Equal(t, matches[1].Match.Value, "🐷", "The second emoji should be 🐷")
+	assert.Equal(t, matches[5].Match.Value, "🥰", "The second emoji should be 🥰")
 
 	emojiRemoved := emoji.RemoveAll(str)
 	assert.Equal(t, "This is a string with some emoji!", emojiRemoved, "There should be no emoji")
@@ -57,6 +60,14 @@ func TestNumericalKeycaps(t *testing.T) {
 	assert.Equal(t, 11, totalUniqueEmoji, "There should be 11 unique emoji")
 }
 
+func TestFamilyEmoji(t *testing.T) {
+	str := "👨‍👩‍👦‍👦family emoji"
+	matches := emoji.FindAll(str)
+	totalUniqueEmoji := len(matches)
+
+	assert.Equal(t, 1, totalUniqueEmoji, "There should be 1 unique emoji")
+}
+
 func TestRemoveAllEmojiChinese(t *testing.T) {
 
 	str := "起坎特在🇫🇷队的作用更      哈哈哈"
@@ -65,6 +76,7 @@ func TestRemoveAllEmojiChinese(t *testing.T) {
 	totalUniqueEmoji := len(matches)
 
 	assert.Equal(t, totalUniqueEmoji, 1, "There should be one emoji")
+	assert.Equal(t, matches[0].Match.Value, "🇫🇷", "The emoji should be 🇫🇷")
 
 	emojiRemoved := emoji.RemoveAll(str)
 	assert.Equal(t, "起坎特在队的作用更 哈哈哈", emojiRemoved, "There should be no emoji")
@@ -79,6 +91,8 @@ func TestRemoveAllEmojiChineseEnglishMixed(t *testing.T) {
 	totalUniqueEmoji := len(matches)
 
 	assert.Equal(t, totalUniqueEmoji, 8, "There should be one emoji")
+	assert.Equal(t, matches[0].Match.Value, "🤮", "The first emoji should be 🤮")
+	assert.Equal(t, matches[4].Match.Value, "🤠", "The fifth emoji should be 🤠")
 
 	emojiRemoved := emoji.RemoveAll(str)
 	assert.Equal(t, "wo武斌ello a武斌 g ood peoello", emojiRemoved, "There should be no emoji")
