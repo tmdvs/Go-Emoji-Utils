@@ -30,7 +30,7 @@ func TestRemoveAllEmoji(t *testing.T) {
 	matches := emoji.FindAll(str)
 	totalUniqueEmoji := len(matches)
 
-	assert.Equal(t, totalUniqueEmoji, 6, "There should be six different emoji")
+	assert.Equal(t, totalUniqueEmoji, 6, "There should be six different emoji, found: %v", matches)
 
 	emojiRemoved := emoji.RemoveAll(str)
 	assert.Equal(t, "This is a string with some emoji!", emojiRemoved, "There should be no emoji")

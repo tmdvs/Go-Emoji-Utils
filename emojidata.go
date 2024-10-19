@@ -20417,9 +20417,4 @@ var Emojis = map[string]Emoji{
 		Value:      "®️",
 		Descriptor: "Registered",
 	},
-	"FE0F": {
-		Key:        "FE0F",
-		Value:      "️",
-		Descriptor: "Variation Selector-16",
-	},
 }
