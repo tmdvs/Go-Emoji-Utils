@@ -9,11 +9,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/tmdvs/Go-Emoji-Utils/utils"
-
-	"github.com/tmdvs/Go-Emoji-Utils"
-
 	"github.com/PuerkitoBio/goquery"
+	emoji "github.com/tmdvs/Go-Emoji-Utils"
+	"github.com/tmdvs/Go-Emoji-Utils/utils"
 )
 
 type lookup struct {
