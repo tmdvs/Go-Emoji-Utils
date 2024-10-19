@@ -9,7 +9,7 @@ import (
 
 // SearchResult - Occurrence of an emoji in a string
 type SearchResult struct {
-	Match       interface{}
+	Match       Emoji
 	Occurrences int
 	Locations   [][]int
 }
@@ -43,7 +43,7 @@ func Find(emojiString string, input string) (result SearchResult, err error) {
 	// Loop through emoji present in input and if any match the
 	// emoji we're looking for we'll return the result
 	for _, r := range allEmoji {
-		if r.Match.(Emoji).Key == emoji.Key {
+		if r.Match.Key == emoji.Key {
 			result = r
 			return
 		}
@@ -69,6 +69,15 @@ func FindAll(input string) (detectedEmojis SearchResults) {
 		// not want to process it again
 		if detectedModifiers[index] {
 			continue
+		}
+
+		// If the previous rune was a zero width joiner we'll skip this one
+		// [Github issue](https://github.com/tmdvs/Go-Emoji-Utils/issues/12#issuecomment-1362747872)
+		if index >= 1 {
+			previousRune := []rune{runes[index-1]}
+			if isRuneZeroWidthJoiner(previousRune) {
+				continue
+			}
 		}
 
 		// Grab the initial hex value of this run
@@ -161,4 +170,8 @@ func findEmoji(term string, list map[string]Emoji) (results map[string]Emoji) {
 		}
 	}
 	return
+}
+
+func isRuneZeroWidthJoiner(r []rune) bool {
+	return utils.RunesToHexKey(r) == "200D"
 }

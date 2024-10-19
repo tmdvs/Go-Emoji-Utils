@@ -86,7 +86,7 @@ func RemoveAll(input string) string {
 	matches := FindAll(input)
 
 	for _, item := range matches {
-		emo := item.Match.(Emoji)
+		emo := item.Match
 		rs := []rune(emo.Value)
 		for _, r := range rs {
 			input = strings.ReplaceAll(input, string([]rune{r}), "")
