@@ -1,9 +1,4 @@
 {
-	"": {
-		"key": "",
-		"value": "",
-		"descriptor": ""
-	},
 	"1F004": {
 		"key": "1F004",
 		"value": "🀄",
@@ -20418,10 +20413,5 @@
 		"key": "AE-FE0F",
 		"value": "®️",
 		"descriptor": "Registered"
-	},
-	"FE0F": {
-		"key": "FE0F",
-		"value": "️",
-		"descriptor": "Variation Selector-16"
 	}
 }

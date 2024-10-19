@@ -6,14 +6,12 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"net/http"
-
-	"github.com/tmdvs/Go-Emoji-Utils/utils"
-
-	"github.com/tmdvs/Go-Emoji-Utils"
+	"os"
 
 	"github.com/PuerkitoBio/goquery"
+	emoji "github.com/tmdvs/Go-Emoji-Utils"
+	"github.com/tmdvs/Go-Emoji-Utils/utils"
 )
 
 type lookup struct {
@@ -99,5 +97,5 @@ func main() {
 
 	// Marshal the emojis map as JSON and write to the data directory
 	s, _ := json.MarshalIndent(emojis, "", "\t")
-	ioutil.WriteFile("data/emoji.json", []byte(s), 0644)
+	os.WriteFile("data/emoji.json", []byte(s), 0644)
 }
