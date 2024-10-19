@@ -49,6 +49,14 @@ func TestContinuousEmoji(t *testing.T) {
 	assert.Equal(t, "abc", emojiRemoved, "There should be no emoji")
 }
 
+func TestNumericalKeycaps(t *testing.T) {
+	str := "0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟"
+	matches := emoji.FindAll(str)
+	totalUniqueEmoji := len(matches)
+
+	assert.Equal(t, 11, totalUniqueEmoji, "There should be 11 unique emoji")
+}
+
 func TestRemoveAllEmojiChinese(t *testing.T) {
 
 	str := "起坎特在🇫🇷队的作用更      哈哈哈"
